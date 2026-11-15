@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Falmer_Blind</defName>
+        <label>eyeless</label>
+        <description>The Dwemer's fungus took their ancestors' sight and the loss has bred true ever since. Carriers see almost nothing, and they hear a footfall from the far side of a cavern. Their cold magic never needed eyes in the first place.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>2</biostatMet>
+        <capMods>
+            <li>
+                <capacity>Sight</capacity>
+                <postFactor>0.3</postFactor>
+            </li>
+            <li>
+                <capacity>Hearing</capacity>
+                <offset>0.5</offset>
+            </li>
+        </capMods>
+        <abilities>
+            <li>ESCP_Ability_Falmer_Frostbite</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Falmer_Sound_Hunter</defName>
+        <label>sound hunter</label>
+        <description>A lifetime tracking prey by the noises it makes compensates for much of what blindness takes away. Carriers strike accurately at anything making noise, and that means almost everything.</description>
+        <iconPath>UI/Icons/Genes/Gene_PsychicBonding</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <MeleeHitChance>6</MeleeHitChance>
+            <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+            <MeleeDodgeChance>4</MeleeDodgeChance>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Falmer_Hate</defName>
+        <label>old hatred</label>
+        <description>Nobody living remembers why anymore, and it makes no difference. Carriers keep fighting long after pain should have dropped them.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <PainShockThreshold>0.15</PainShockThreshold>
+            <MentalBreakThreshold>0.05</MentalBreakThreshold>
+        </statOffsets>
+    </GeneDef>
+
+</Defs>

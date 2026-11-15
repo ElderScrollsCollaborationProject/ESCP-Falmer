@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ESCP_BaseXenotype_Mer">
+        <defName>ESCP_Xenotype_Falmer</defName>
+        <label>Falmer</label>
+        <iconPath>UI/Icons/Xenotypes/Neanderthal</iconPath>
+        <description>Once the Snow Elves of Skyrim, who took shelter with the Dwemer after the Nords broke them. The price was a poison that stole their sight and generations of slavery underground. What crawled back up from Blackreach no longer recalls any of this as history, only as hate. They hunt by sound and keep chaurus for livestock, and they do not negotiate.</description>
+        <descriptionShort>Blind hunters from under the ice: pale, patient and permanently hostile.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Falmer_Blind</li>
+            <li>ESCP_Gene_Falmer_Sound_Hunter</li>
+            <li>ESCP_Gene_Falmer_Hate</li>
+            <li>ESCP_Gene_MerHead_Scaled</li>
+            <li>Skin_SheerWhite</li>
+            <li>Hair_BaldOnly</li>
+            <li>DarkVision</li>
+            <li>MinTemp_LargeDecrease</li>
+            <li>ToxResist_Partial</li>
+            <li>Learning_Slow</li>
+            <li>Beard_NoBeardOnly</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

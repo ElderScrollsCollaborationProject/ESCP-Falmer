@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Falmer_Chaurus_Keeper</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>chaurus keeper</label>
+                <description>Raised among the hive's chaurus, and comfortable with what that does to a person. Beasts settle when they approach, whether or not they should.</description>
+                <statOffsets>
+                    <TameAnimalChance>0.15</TameAnimalChance>
+                    <ToxicResistance>0.15</ToxicResistance>
+                </statOffsets>
+                <skillGains>
+                    <Animals>2</Animals>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Falmer_Gloomlurker</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>gloomlurker</label>
+                <description>Patient beyond reason. They have waited days in the dark for one mistake, and they consider that an ordinary hunt.</description>
+                <statOffsets>
+                    <MeleeDodgeChance>6</MeleeDodgeChance>
+                    <MeleeHitChance>4</MeleeHitChance>
+                </statOffsets>
+                <skillGains>
+                    <Melee>2</Melee>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Falmer_Frost_Shaman</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>frost shaman</label>
+                <description>Scraps of old Snow Elf magic survive in the hive's rites. Nobody understands them anymore, and this person can use them anyway.</description>
+                <statOffsets>
+                    <ESCP_MagickaMax>25</ESCP_MagickaMax>
+                    <PsychicSensitivity>0.15</PsychicSensitivity>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>1</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_Snow_Elf_Empire</defName>
+        <label>Snow Elf Empire</label>
+        <description>Before the Nords and before the Dwemer's bargain, the Snow Elves held all of Skyrim's north from white cities on the sea. Whatever else happened on the Night of Tears, and accounts differ, it began the end of them. In this world some chantries still stand, and their Knight-Paladins have not accepted that it is over.</description>
+        <colorSpectrum>
+            <li>(0.78, 0.85, 0.95)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Snow Elf</pawnSingular>
+        <pawnsPlural>Snow Elves</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.2</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Knight-Paladin</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>Snow Elf Empire</fixedName>
+        <allowedCultures>
+            <li>ESCP_Culture_SnowElf</li>
+        </allowedCultures>
+
+        <royalTitleTags>
+            <li>ESCP_Title_SnowElf</li>
+        </royalTitleTags>
+        <royalFavorLabel>Chantry Regard</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>The Chantry of Auri-El</ideoName>
+        <ideoDescription>Auri-El is the sun and the Chantry is his house on the ice. Priests keep the hours, paladins keep the doors, and pilgrims follow the wayshrines up to the Inner Sanctum in the Forgotten Vale. Everyone in the order knows how few of them remain. They keep the hours anyway.</ideoDescription>
+        <deityPresets>
+            <li>
+                <nameType><name>Auri-El</name><type>the sun-bright king of the Aldmeri gods</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityAuriEl</iconPath>
+            </li>
+            <li>
+                <nameType><name>Trinimac</name><type>champion of the elven gods</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityTrinimac</iconPath>
+            </li>
+            <li>
+                <nameType><name>Magnus</name><type>the architect who left his eye behind</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityMagnus</iconPath>
+            </li>
+        </deityPresets>
+        <styles>
+            <li>ESCP_Style_SnowElf</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_SunHymn</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                    <li>ESCP_Backstory_SnowElf_Citizen</li>
+                    <li>ESCP_Backstory_SnowElf_Military</li>
+                    <li>ESCP_Backstory_SnowElf_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_SnowElf_Trader</li>
+        </caravanTraderKinds>
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_SnowElf_Trader</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>ESCP_Caravan_SnowElf_Trader</li>
+        </baseTraderKinds>
+
+        <allowedArrivalTemperatureRange>-70~30</allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <ESCP_Pawnkind_SnowElf_Melee>10</ESCP_Pawnkind_SnowElf_Melee>
+                    <ESCP_Pawnkind_SnowElf_Ranged>7</ESCP_Pawnkind_SnowElf_Ranged>
+                    <ESCP_Pawnkind_SnowElf_Mage>4</ESCP_Pawnkind_SnowElf_Mage>
+                    <ESCP_Pawnkind_SnowElf_Captain>3</ESCP_Pawnkind_SnowElf_Captain>
+                    <ESCP_Pawnkind_SnowElf_Elite>2</ESCP_Pawnkind_SnowElf_Elite>
+                </options>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <ESCP_Pawnkind_SnowElf_Citizen>15</ESCP_Pawnkind_SnowElf_Citizen>
+                    <ESCP_Pawnkind_SnowElf_Merchant>6</ESCP_Pawnkind_SnowElf_Merchant>
+                    <ESCP_Pawnkind_SnowElf_Noble>4</ESCP_Pawnkind_SnowElf_Noble>
+                    <ESCP_Pawnkind_SnowElf_Mage>3</ESCP_Pawnkind_SnowElf_Mage>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <ESCP_Pawnkind_SnowElf_Trader>1</ESCP_Pawnkind_SnowElf_Trader>
+                    <ESCP_Pawnkind_SnowElf_Quartermaster>1</ESCP_Pawnkind_SnowElf_Quartermaster>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>5</Dromedary>
+                    <Alpaca>3</Alpaca>
+                </carriers>
+                <guards>
+                    <ESCP_Pawnkind_SnowElf_Melee>8</ESCP_Pawnkind_SnowElf_Melee>
+                    <ESCP_Pawnkind_SnowElf_Ranged>5</ESCP_Pawnkind_SnowElf_Ranged>
+                    <ESCP_Pawnkind_SnowElf_Elite>1</ESCP_Pawnkind_SnowElf_Elite>
+                </guards>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <ESCP_Pawnkind_SnowElf_Citizen>8</ESCP_Pawnkind_SnowElf_Citizen>
+                    <ESCP_Pawnkind_SnowElf_Melee>10</ESCP_Pawnkind_SnowElf_Melee>
+                    <ESCP_Pawnkind_SnowElf_Ranged>8</ESCP_Pawnkind_SnowElf_Ranged>
+                    <ESCP_Pawnkind_SnowElf_Mage>4</ESCP_Pawnkind_SnowElf_Mage>
+                    <ESCP_Pawnkind_SnowElf_Elite>2</ESCP_Pawnkind_SnowElf_Elite>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>Snow Elf Empire</newLabel>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_PermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="Rick.ESCP.Falmer">ESCP_Faction_Falmer_Hive</li>
+                    <li MayRequire="Rick.ESCP.Dwemer">ESCP_Faction_Clan_Rourken</li>
+                </hostileFactionDefs>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

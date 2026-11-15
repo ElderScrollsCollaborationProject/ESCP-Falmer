@@ -1,0 +1,2295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Saarthal</defName>
+        <identifier>ESCP_Backstory_SnowElf_Saarthal</identifier>
+        <slot>Childhood</slot>
+        <title>Saarthal child</title>
+        <titleShort>Saarthal</titleShort>
+        <description>[PAWN_nameDef] grew up within sight of the city's old walls, in a family who insisted the Nords would be gone by spring.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Wayshrine</defName>
+        <identifier>ESCP_Backstory_SnowElf_Wayshrine</identifier>
+        <slot>Childhood</slot>
+        <title>wayshrine child</title>
+        <titleShort>Shrine child</titleShort>
+        <description>[PAWN_possessive] parents kept a wayshrine on the pilgrim road, so [PAWN_nameDef] grew up offering water to strangers and memorizing where the crevasses were.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Plants>1</Plants>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Choir</defName>
+        <identifier>ESCP_Backstory_SnowElf_Choir</identifier>
+        <slot>Childhood</slot>
+        <title>choir novice</title>
+        <titleShort>Choir</titleShort>
+        <description>[PAWN_nameDef] sang the morning hour for six years at the Chantry, on an empty stomach, in a hall with no fire in it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Glacier</defName>
+        <identifier>ESCP_Backstory_SnowElf_Glacier</identifier>
+        <slot>Childhood</slot>
+        <title>glacier climber</title>
+        <titleShort>Climber</titleShort>
+        <description>[PAWN_nameDef]'s family kept goats on the edge of the ice, and the children were sent after the ones who wandered. Most came back.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Stonecut</defName>
+        <identifier>ESCP_Backstory_SnowElf_Stonecut</identifier>
+        <slot>Childhood</slot>
+        <title>stonecutter's child</title>
+        <titleShort>Cutter</titleShort>
+        <description>[PAWN_nameDef] learned on the white quarries that a block that cracks is a year wasted. Nobody needed to raise their voice to make the point.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Noble_Ward</defName>
+        <identifier>ESCP_Backstory_SnowElf_Noble_Ward</identifier>
+        <slot>Childhood</slot>
+        <title>prince's ward</title>
+        <titleShort>Ward</titleShort>
+        <description>After a border skirmish left [PAWN_objective] orphaned, [PAWN_nameDef] was raised at a lesser court, educated carefully and reminded often of what that had cost.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Refugee</defName>
+        <identifier>ESCP_Backstory_SnowElf_Refugee</identifier>
+        <slot>Childhood</slot>
+        <title>Night of Tears orphan</title>
+        <titleShort>Orphan</titleShort>
+        <description>The Night of Tears took everything from [PAWN_nameDef], though who started it was never explained to [PAWN_objective] in the same way twice.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Cooking>1</Cooking>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Scribe_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Scribe_Child</identifier>
+        <slot>Childhood</slot>
+        <title>hymn copyist</title>
+        <titleShort>Copyist</titleShort>
+        <description>Each hymn had to be copied without a single error, and an error meant starting over. [PAWN_nameDef] has very neat handwriting and a wary expression.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Vale_Guard</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Vale_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Vale guardsman</title>
+        <titleShort>Guardsman</titleShort>
+        <description>[PAWN_nameDef] walked the Forgotten Vale's frozen paths with a spear, driving off what the snow hid. Each winter there were fewer to share the watch.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Archer</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Archer</identifier>
+        <slot>Adulthood</slot>
+        <title>ice-field archer</title>
+        <titleShort>Archer</titleShort>
+        <description>On a white plain under a white sky, [PAWN_nameDef] learned to judge distance by the shadow of the arrow itself.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Paladin</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Paladin</identifier>
+        <slot>Adulthood</slot>
+        <title>Chantry paladin</title>
+        <titleShort>Paladin</titleShort>
+        <description>[PAWN_nameDef] swore to keep the doors of the Chantry, and has kept them through more sieges than [PAWN_pronoun] cares to list.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Moesring</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Moesring</identifier>
+        <slot>Adulthood</slot>
+        <title>Moesring veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>[PAWN_nameDef] stood with the Snow Prince in the last field battle on Solstheim, and saw a child's arrow end it. There is no comfortable way to tell that story.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Ysgramor</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Ysgramor</identifier>
+        <slot>Adulthood</slot>
+        <title>Five Hundred's foe</title>
+        <titleShort>Foe</titleShort>
+        <description>[PAWN_nameDef] fought Ysgramor's Companions through three failed sieges. [PAWN_pronoun] will grudgingly concede they were not bad at this.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Sentry</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Sentry</identifier>
+        <slot>Adulthood</slot>
+        <title>pass sentry</title>
+        <titleShort>Sentry</titleShort>
+        <description>Alone in a stone hut above a mountain pass, [PAWN_nameDef] watched for smoke for twenty winters and lit the beacon exactly twice.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Cooking>1</Cooking>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Curate</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Curate</identifier>
+        <slot>Adulthood</slot>
+        <title>shrine curate</title>
+        <titleShort>Curate</titleShort>
+        <description>[PAWN_nameDef] kept the hours at a minor shrine with no congregation left, on the theory that Auri-El might still be listening.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Sun_Priest</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Sun_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>priest of the Aetherial Light</title>
+        <titleShort>Priest</titleShort>
+        <description>The sun's power can be drawn through a focus and thrown, and [PAWN_nameDef] has done so in anger. [PAWN_pronoun] still does penance for one of those times.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Bow_Keeper</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Bow_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>keeper of relics</title>
+        <titleShort>Keeper</titleShort>
+        <description>[PAWN_nameDef] looked after the Chantry's reliquary, including a few things that should not be handled, and knows which is which.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Eye_Scholar</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Eye_Scholar</identifier>
+        <slot>Adulthood</slot>
+        <title>Eye of Magnus scholar</title>
+        <titleShort>Scholar</titleShort>
+        <description>[PAWN_nameDef] read every account of what lay buried at Saarthal, and came to believe the Falmer wanted it badly enough to start a war.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>ManualDumb</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Frost_Healer</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Frost_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>frost healer</title>
+        <titleShort>Healer</titleShort>
+        <description>Cold slows a wound and a skilled hand can use that. [PAWN_nameDef] saved many a soldier on the ice, and has kept a few of their fingers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Mason</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Mason</identifier>
+        <slot>Adulthood</slot>
+        <title>white-stone mason</title>
+        <titleShort>Mason</titleShort>
+        <description>[PAWN_nameDef] raised vaults with no mortar and no iron. Ice has broken mountains in the north, and those vaults are still there.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Merchant</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>ice road trader</title>
+        <titleShort>Trader</titleShort>
+        <description>[PAWN_nameDef] ran sledges between the northern cities, selling salt and furs. The Dwemer were always excellent customers until they were not.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Herder</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Herder</identifier>
+        <slot>Adulthood</slot>
+        <title>highland herder</title>
+        <titleShort>Herder</titleShort>
+        <description>[PAWN_nameDef] kept shaggy goats on the ice margins, and learned that animals sense an avalanche long before anyone else does.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Dwemer_Envoy</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Dwemer_Envoy</identifier>
+        <slot>Adulthood</slot>
+        <title>envoy to the Dwemer</title>
+        <titleShort>Envoy</titleShort>
+        <description>[PAWN_nameDef] went under the mountain to ask for shelter. The Dwemer were entirely courteous. That has troubled [PAWN_objective] every day since.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Cook</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>chantry cook</title>
+        <titleShort>Cook</titleShort>
+        <description>Fasting is half the Chantry's calendar. On the other half, [PAWN_nameDef] feeds everyone, with whatever the ice lets through.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Weaver</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Weaver</identifier>
+        <slot>Adulthood</slot>
+        <title>vestment weaver</title>
+        <titleShort>Weaver</titleShort>
+        <description>[PAWN_nameDef] wove the white robes of the priesthood. The pattern hadn't changed in a thousand years, and [PAWN_pronoun] would like to speak to anyone who suggests it should.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Betrayed_Thrall</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Betrayed_Thrall</identifier>
+        <slot>Adulthood</slot>
+        <title>escaped thrall</title>
+        <titleShort>Escaped</titleShort>
+        <description>[PAWN_nameDef] went below with the rest and saw what the Dwemer's fungus did to those who ate it. [PAWN_pronoun] walked out through three miles of machinery and has not stopped being angry.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Moesring_Shepherds_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Moesring_Shepherds_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Moesring shepherd's child</title>
+        <titleShort>Shepherd's child</titleShort>
+        <description>Goats on Moesring Pass did not recognize borders. Neither did [PAWN_nameDef], who followed them halfway to the Nord camps and was carried back by the ear.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Forgotten_Vale_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Forgotten_Vale_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Forgotten Vale child</title>
+        <titleShort>Vale child</titleShort>
+        <description>Snow fell on the Vale in great soft sheets, and the old ones said the light there was a gift. [PAWN_nameDef] thought everyone's valley glowed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Hymn_Runner</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Hymn_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>hymn runner</title>
+        <titleShort>Hymn runner</titleShort>
+        <description>Hymns for the Chantries were sent from Vale to coast in the mouths of children, because parchment could freeze. [PAWN_nameDef] forgot only one verse in eight years.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Ice_Cave_Explorer</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Ice_Cave_Explorer</identifier>
+        <slot>Childhood</slot>
+        <title>ice cave explorer</title>
+        <titleShort>Cave explorer</titleShort>
+        <description>Glacier caves are blue inside, with a sound like breathing. [PAWN_nameDef] went deeper than anyone had said to, and came back with frostbitten toes and no regrets.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Princes_Stable_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Princes_Stable_Child</identifier>
+        <slot>Childhood</slot>
+        <title>prince's stable child</title>
+        <titleShort>Stable child</titleShort>
+        <description>Horses came with the Snow Prince's household from a warmer land and never quite got over it. [PAWN_nameDef] rubbed down their legs and told them things would improve.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Dimhollow_Candle_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Dimhollow_Candle_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Dimhollow candle child</title>
+        <titleShort>Candle child</titleShort>
+        <description>Deep in the crypt, a very long-burning candle stood beside each of the dead. [PAWN_nameDef] walked the rows at dusk, replacing whichever ones had gone out.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Coast_Fishers_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Coast_Fishers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>coast fisher's child</title>
+        <titleShort>Coast child</titleShort>
+        <description>Seal and white fish came ashore along the Sea of Ghosts, along with driftwood and news. [PAWN_nameDef] saw Atmoran ships on the horizon before anyone believed the stories.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Glacier_Herb_Gatherer</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Glacier_Herb_Gatherer</identifier>
+        <slot>Childhood</slot>
+        <title>glacier herb gatherer</title>
+        <titleShort>Herb gatherer</titleShort>
+        <description>Few things bloom above the tree line, and those that do are precious. [PAWN_nameDef] climbed for them in summer and sold the best to the chantry healers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Saarthal_Market_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Saarthal_Market_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Saarthal market child</title>
+        <titleShort>Market child</titleShort>
+        <description>Saarthal's market sold rare things from the south, and also lied a lot. [PAWN_nameDef] ran between the stalls, carrying change and collecting the better lies.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Chantry_Bell_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Chantry_Bell_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Chantry bell child</title>
+        <titleShort>Bell child</titleShort>
+        <description>The sun rises late in winter, and the bell tells the valley when. [PAWN_nameDef] rang it each morning at Auri-El's Chantry and came to know exactly how cold bronze could get.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Dwemer_Trade_Guest</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Dwemer_Trade_Guest</identifier>
+        <slot>Childhood</slot>
+        <title>Dwemer trade guest</title>
+        <titleShort>Trade guest</titleShort>
+        <description>Dwemer merchants sometimes brought a child along to the Vale, and sometimes took one home. [PAWN_nameDef] spent a winter in a Dwemer hold and came back with a lot of questions.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Snow_Gardeners_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Snow_Gardeners_Child</identifier>
+        <slot>Childhood</slot>
+        <title>snow-gardener's child</title>
+        <titleShort>Gardener's child</titleShort>
+        <description>Roses of a kind grow under glass near the hot springs. [PAWN_nameDef] brushed the snow off the panes every morning and was allowed to take home the wilted ones.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Mountain_Messenger</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Mountain_Messenger</identifier>
+        <slot>Childhood</slot>
+        <title>mountain messenger</title>
+        <titleShort>Mountain messenger</titleShort>
+        <description>Passes close quickly in the far north. [PAWN_nameDef] went on foot and on skis between towns while the road was still open, and knew when to stay put.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Wolfskin_Tanners_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Wolfskin_Tanners_Child</identifier>
+        <slot>Childhood</slot>
+        <title>wolfskin tanner's child</title>
+        <titleShort>Tanner's child</titleShort>
+        <description>White wolf pelts sold well as far as Alinor. [PAWN_nameDef] scraped them in a cold shed and wore the rejects, which is how the child got the nickname.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Ice_Sculpture_Helper</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Ice_Sculpture_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>ice-sculpture helper</title>
+        <titleShort>Sculpture helper</titleShort>
+        <description>Each winter, the Vale filled up with ice carved by masters, gone again by spring. [PAWN_nameDef] carried water and chisels, and thought it a great waste until adulthood.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Ysgramors_Return_Orphan</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Ysgramors_Return_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>Ysgramor's return orphan</title>
+        <titleShort>Return orphan</titleShort>
+        <description>The Five Hundred came ashore looking for blood. [PAWN_nameDef] came out of the wreck of a village with a few burned books and very little else.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Lyre_Pupil</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Lyre_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>lyre pupil</title>
+        <titleShort>Lyre pupil</titleShort>
+        <description>Lessons were held in a cold room, because warm fingers are easily spoiled. [PAWN_nameDef] played for the priests and was only sometimes told to stop.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Night_Of_Tears_Witness</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Night_Of_Tears_Witness</identifier>
+        <slot>Childhood</slot>
+        <title>Night of Tears witness</title>
+        <titleShort>Tears witness</titleShort>
+        <description>Snow-Elf children are told how Saarthal's hall burned. [PAWN_nameDef] needs no telling, having seen the smoke rise from the far side of a frozen bay.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Medicine>1</Medicine>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Aetherial_Light_Watcher</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Aetherial_Light_Watcher</identifier>
+        <slot>Childhood</slot>
+        <title>Aetherial light watcher</title>
+        <titleShort>Light watcher</titleShort>
+        <description>Priests of Auri-El believed the first light of morning told you things. A young [PAWN_nameDef] sat on the roof to watch it and wrote everything down in charcoal.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Ski_Makers_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Ski_Makers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>ski maker's child</title>
+        <titleShort>Ski maker's child</titleShort>
+        <description>Bent birch and a good waxing would take you most places in the north. [PAWN_nameDef] grew up in a shed full of steaming wood and tested each pair on the steepest slope.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Falkreath_Border_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Falkreath_Border_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Falkreath border child</title>
+        <titleShort>Border child</titleShort>
+        <description>South of the snow line, the land goes green and the woods fill with game. [PAWN_nameDef] grew up on that edge, unsure about the shoes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Chantry_Orphan</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Chantry_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>Chantry orphan</title>
+        <titleShort>Chantry orphan</titleShort>
+        <description>The priests took in whoever came through the door, and in those years there were many. [PAWN_nameDef] was raised on thin soup and long sermons, and turned out all right.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Knights_Page</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Knights_Page</identifier>
+        <slot>Childhood</slot>
+        <title>knight's page</title>
+        <titleShort>Knight's page</titleShort>
+        <description>Cleaning armor is a skill, and it pays to take the mail apart with care. [PAWN_nameDef] served a Knight-Paladin and got to hold the good sword on one memorable day.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Ivory_Carvers_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Ivory_Carvers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>ivory carver's child</title>
+        <titleShort>Ivory carver's child</titleShort>
+        <description>Mammoth tusk came down from the giants in trade. [PAWN_nameDef] started by carving spoons, then moved on to tiny saints with very cross faces.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Snowbound_Scholar</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Snowbound_Scholar</identifier>
+        <slot>Childhood</slot>
+        <title>snowbound scholar</title>
+        <titleShort>Snowbound</titleShort>
+        <description>An avalanche sealed the road to the family's house for one whole winter. [PAWN_nameDef] read the entire library and came out, thin and pale, with many opinions.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Sled_Dog_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Sled_Dog_Child</identifier>
+        <slot>Childhood</slot>
+        <title>sled-dog child</title>
+        <titleShort>Sled child</titleShort>
+        <description>Hauling freight through the passes takes strong dogs and stubborn drivers. [PAWN_nameDef] slept among the team and learned their language, which was mostly complaints.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Sea_Of_Ghosts_Wreck_Picker</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Sea_Of_Ghosts_Wreck_Picker</identifier>
+        <slot>Childhood</slot>
+        <title>Sea of Ghosts wreck-picker</title>
+        <titleShort>Wreck-picker</titleShort>
+        <description>Ice grinds up what comes close to that coast. [PAWN_nameDef] walked out over the floes after each storm to see what might be pulled from the wrecks.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Temple_Scribes_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Temple_Scribes_Child</identifier>
+        <slot>Childhood</slot>
+        <title>temple scribe's child</title>
+        <titleShort>Scribe's child</titleShort>
+        <description>Copying the Canticles of the Aetherial was slow, and ink needed thawing near the fire. [PAWN_nameDef] sat by the coals and kept it liquid until [PAWN_pronoun] could write too.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Winterhold_Shore_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Winterhold_Shore_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Winterhold shore child</title>
+        <titleShort>Shore child</titleShort>
+        <description>Before anyone had thought of a College there, the cliffs were just a good place to gather gull eggs. [PAWN_nameDef] went down the ropes each spring.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Plants>1</Plants>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Skater</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Skater</identifier>
+        <slot>Childhood</slot>
+        <title>skater</title>
+        <titleShort>Skater</titleShort>
+        <description>Lakes in the Vale freeze clear as window glass. [PAWN_nameDef] could go across one faster than a horse and proved it, with costly consequences.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Mine_Town_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Mine_Town_Child</identifier>
+        <slot>Childhood</slot>
+        <title>mine-town child</title>
+        <titleShort>Mine child</titleShort>
+        <description>Silver from the Reach-side mines kept the Snow Prince's court in fine dishes. [PAWN_nameDef] grew up among those who dug it, who ate off wood.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>3</Mining>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Physicians_Pupil</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Physicians_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>physician's pupil</title>
+        <titleShort>Physician's pupil</titleShort>
+        <description>Frostbite was the first thing [PAWN_nameDef] learned to treat and the last one that was fully understood. There's a strict order for what you try to save.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Highborn_Hostage</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Highborn_Hostage</identifier>
+        <slot>Childhood</slot>
+        <title>highborn hostage</title>
+        <titleShort>Hostage</titleShort>
+        <description>Treaties with the Dwemer sometimes came with a guest from a good family. [PAWN_nameDef] grew up in a stone hall far underground and was treated with courtesy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Snow_Bear_Cubs_Friend</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Snow_Bear_Cubs_Friend</identifier>
+        <slot>Childhood</slot>
+        <title>snow-bear cub's friend</title>
+        <titleShort>Cub's friend</titleShort>
+        <description>Someone found an orphaned bear, and [PAWN_nameDef] was blamed for feeding it. By spring it weighed more than the child, and the parting was difficult for all.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Lantern_Festival_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Lantern_Festival_Child</identifier>
+        <slot>Childhood</slot>
+        <title>lantern festival child</title>
+        <titleShort>Festival child</titleShort>
+        <description>On the longest night, each house in the Vale hung its lights on the pines. [PAWN_nameDef] made the lanterns, and remembers that festival with particular longing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Road_Marker_Painter</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Road_Marker_Painter</identifier>
+        <slot>Childhood</slot>
+        <title>road-marker painter</title>
+        <titleShort>Marker painter</titleShort>
+        <description>Waystones vanish under drifts unless they're painted red. [PAWN_nameDef] went along the road each autumn with a bucket and a bad-tempered mule.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Snow_Princes_Admirer</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Snow_Princes_Admirer</identifier>
+        <slot>Childhood</slot>
+        <title>Snow Prince's admirer</title>
+        <titleShort>Admirer</titleShort>
+        <description>Stories of the Snow Prince's last stand were all the children wanted to play at. [PAWN_nameDef] always played the prince and, unusually, refused to die at the end.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Thrall_Camp_Survivor</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Thrall_Camp_Survivor</identifier>
+        <slot>Childhood</slot>
+        <title>thrall-camp survivor</title>
+        <titleShort>Thrall survivor</titleShort>
+        <description>Some of those who ran to the Dwemer didn't remain free for long. [PAWN_nameDef] got out in the very early days of it and doesn't speak of the tunnels.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Cold_Kitchen_Child</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Cold_Kitchen_Child</identifier>
+        <slot>Childhood</slot>
+        <title>cold-kitchen child</title>
+        <titleShort>Kitchen child</titleShort>
+        <description>Stews took all day in a mountain kitchen, and somebody had to mind the fire. [PAWN_nameDef] was that somebody and acquired an impressive knowledge of barley.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Bird_Netter</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Bird_Netter</identifier>
+        <slot>Childhood</slot>
+        <title>bird-netter</title>
+        <titleShort>Bird netter</titleShort>
+        <description>White ptarmigan feed on the slopes and don't look up. [PAWN_nameDef] strung nets over a gully and took home enough to be useful.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Choir_Child_With_A_Cough</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Choir_Child_With_A_Cough</identifier>
+        <slot>Childhood</slot>
+        <title>choir child with a cough</title>
+        <titleShort>Choir reject</titleShort>
+        <description>A winter sickness damaged [PAWN_nameDef]'s voice, ending all prospects in the choir. Theory of music turned out to be an acceptable consolation.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Child_Vyrthurs_Acolyte</defName>
+        <identifier>ESCP_Backstory_SnowElf_Child_Vyrthurs_Acolyte</identifier>
+        <slot>Childhood</slot>
+        <title>Vyrthur's acolyte</title>
+        <titleShort>Young acolyte</titleShort>
+        <description>Acolytes of the Chantry served the priests in shifts. [PAWN_nameDef] brought Vyrthur's breakfast for a season, and later had reason to remember how he looked at the Vale.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Knight_Paladin</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Knight_Paladin</identifier>
+        <slot>Adulthood</slot>
+        <title>Knight-Paladin</title>
+        <titleShort>Knight-Paladin</titleShort>
+        <description>Gelebor and his brother were not the only ones who wore the white and gold. [PAWN_nameDef] took the same oath, kept vigil in the same snow and is still on duty.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Moesring_Rearguard</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Moesring_Rearguard</identifier>
+        <slot>Adulthood</slot>
+        <title>Moesring rearguard</title>
+        <titleShort>Rearguard</titleShort>
+        <description>Everyone knows who died at Moesring Pass. Fewer people have heard of those who held the back of the column long enough so that anyone could get away, including [PAWN_nameDef].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Bridge_Warden</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Bridge_Warden</identifier>
+        <slot>Adulthood</slot>
+        <title>bridge warden</title>
+        <titleShort>Bridge warden</titleShort>
+        <description>Bridges in the Vale are old, narrow and very useful to hold. [PAWN_nameDef] stood on one for six years and watched it rebuilt twice beneath [PAWN_possessive] boots.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Construction>3</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Atmoran_Hunter</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Atmoran_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Atmoran-hunter</title>
+        <titleShort>Atmoran hunter</titleShort>
+        <description>Nords in small groups came up the valleys for loot. [PAWN_nameDef] picked them out at distance and left the survivors something to report at home.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Snowfield_Skirmisher</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Snowfield_Skirmisher</identifier>
+        <slot>Adulthood</slot>
+        <title>snowfield skirmisher</title>
+        <titleShort>Skirmisher</titleShort>
+        <description>White cloaks and a bow are about all you need on the open snow. [PAWN_nameDef] ran with a band that struck supply sleds and vanished before the alarm went up.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Dwemer_Garrison_Liaison</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Dwemer_Garrison_Liaison</identifier>
+        <slot>Adulthood</slot>
+        <title>Dwemer-garrison liaison</title>
+        <titleShort>Liaison</titleShort>
+        <description>Dwemer offered shelter to the refugees and then sent somebody to measure them. [PAWN_nameDef] was among the first to see what was coming, and the first to be ignored.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Vigilant_Of_The_Crypts</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Vigilant_Of_The_Crypts</identifier>
+        <slot>Adulthood</slot>
+        <title>vigilant of the crypts</title>
+        <titleShort>Crypt vigilant</titleShort>
+        <description>The dead of the Prince's house are guarded even now. [PAWN_nameDef] walked the Vale's lower chambers with a blade, and had reason to use it on things that walked.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Falmer_Hunter</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Falmer_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Falmer-hunter</title>
+        <titleShort>Falmer hunter</titleShort>
+        <description>Betrayed kin came up from below, blind and starving, and they had to be fought. [PAWN_nameDef] goes after them knowing full well what they were, and doesn't discuss it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Saarthal_Gate_Guard</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Saarthal_Gate_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Saarthal gate guard</title>
+        <titleShort>Saarthal guard</titleShort>
+        <description>Gates were open on the night the Atmorans were massacred, and it's been argued ever since who ordered what. [PAWN_nameDef] was on duty and has never given a straight answer.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Avalanche_Sapper</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Avalanche_Sapper</identifier>
+        <slot>Adulthood</slot>
+        <title>avalanche sapper</title>
+        <titleShort>Avalanche sapper</titleShort>
+        <description>With the right arrow in the right spot, a whole slope can come down on an enemy. [PAWN_nameDef] studied the snow for years and could call it down with a word.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Vale_Archer_Captain</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Vale_Archer_Captain</identifier>
+        <slot>Adulthood</slot>
+        <title>Vale archer captain</title>
+        <titleShort>Archer captain</titleShort>
+        <description>Frozen fingers don't draw well. [PAWN_nameDef] drilled that into every recruit, along with a firm rule on gloves and fair warning about what would happen without them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Sled_Raider</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Sled_Raider</identifier>
+        <slot>Adulthood</slot>
+        <title>sled raider</title>
+        <titleShort>Sled raider</titleShort>
+        <description>Dog teams move faster than an army on a good crust. [PAWN_nameDef]'s band went down on Nord camps at dawn, and left long before the shouting stopped.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+            <Melee>4</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Ice_Field_Tracker</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Ice_Field_Tracker</identifier>
+        <slot>Adulthood</slot>
+        <title>ice-field tracker</title>
+        <titleShort>Tracker</titleShort>
+        <description>Marks on the snow last until the next wind. [PAWN_nameDef] could read them by moonlight and tell you what kind of Nord made them and how hungry he was.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Pass_Guardian</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Pass_Guardian</identifier>
+        <slot>Adulthood</slot>
+        <title>pass guardian</title>
+        <titleShort>Pass guardian</titleShort>
+        <description>A small stone hut on the highest pass was home for most of [PAWN_nameDef]'s career. Very few travelers passed by, and even fewer of them were friendly.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Construction>3</Construction>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Princes_Sworn_Sword</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Princes_Sworn_Sword</identifier>
+        <slot>Adulthood</slot>
+        <title>Prince's sworn sword</title>
+        <titleShort>Sworn sword</titleShort>
+        <description>An oath to the Snow Prince did not end when he fell. [PAWN_nameDef] goes on keeping it, in a world that has mostly forgotten what he stood for.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>8</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Ysgramors_Prisoner</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Ysgramors_Prisoner</identifier>
+        <slot>Adulthood</slot>
+        <title>Ysgramor's prisoner</title>
+        <titleShort>War prisoner</titleShort>
+        <description>The Companions took a few alive, for reasons they kept to themselves. [PAWN_nameDef] broke out after one winter, and took along a good Atmoran axe.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Mining>2</Mining>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Wolf_Rider_Of_The_North</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Wolf_Rider_Of_The_North</identifier>
+        <slot>Adulthood</slot>
+        <title>wolf-rider of the north</title>
+        <titleShort>Wolf rider</titleShort>
+        <description>Great white wolves will carry a light rider, if raised to it. [PAWN_nameDef] raised three, and they all still come when whistled for.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>5</Animals>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Chantry_Priest</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Chantry_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>Chantry priest</title>
+        <titleShort>Priest</titleShort>
+        <description>Auri-El's chantries follow a very strict calendar. [PAWN_nameDef] kept it through a war and a famine and could tell you which saint had been skipped.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Sunlight_Weaver</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Sunlight_Weaver</identifier>
+        <slot>Adulthood</slot>
+        <title>sunlight weaver</title>
+        <titleShort>Light weaver</titleShort>
+        <description>Sunlight can be gathered and then released, with a little effort and a long education. [PAWN_nameDef] has done it often enough to burn the eyes out of a charging Nord.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Aetherial_Scholar</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Aetherial_Scholar</identifier>
+        <slot>Adulthood</slot>
+        <title>Aetherial scholar</title>
+        <titleShort>Aetherial scholar</titleShort>
+        <description>[PAWN_nameDef] studied what the Aetherial Plane might be and whether it was home. The research was mostly unfinished when Saarthal fell.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Keeper_Of_The_Bow</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Keeper_Of_The_Bow</identifier>
+        <slot>Adulthood</slot>
+        <title>keeper of the Bow</title>
+        <titleShort>Bow keeper</titleShort>
+        <description>Auri-El's Bow was supposed to be a thing you protected. [PAWN_nameDef] served the shrine where it was held and has opinions about how it was used.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Wayshrine_Keeper</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Wayshrine_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>wayshrine keeper</title>
+        <titleShort>Wayshrine keeper</titleShort>
+        <description>Five wayshrines mark out the path of initiation and all need tending. [PAWN_nameDef] walked between them, clearing snow, relighting braziers and blessing tired pilgrims.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Construction>3</Construction>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Initiate_Tester</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Initiate_Tester</identifier>
+        <slot>Adulthood</slot>
+        <title>initiate-tester</title>
+        <titleShort>Initiate-tester</titleShort>
+        <description>No one gets to the Chantry without passing a trial of the pilgrim's route. [PAWN_nameDef] watched them come and turned away most, without apology.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>2</Melee>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Frost_Mage_Of_Saarthal</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Frost_Mage_Of_Saarthal</identifier>
+        <slot>Adulthood</slot>
+        <title>frost mage of Saarthal</title>
+        <titleShort>Frost mage</titleShort>
+        <description>Saarthal's scholars used frost the way others use pen and ink. [PAWN_nameDef] learned its many varieties and got rather fond of the sharp ones.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Relic_Forger</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Relic_Forger</identifier>
+        <slot>Adulthood</slot>
+        <title>relic forger</title>
+        <titleShort>Relic forger</titleShort>
+        <description>An eager pilgrim doesn't look at a saint's knucklebone too closely. [PAWN_nameDef] supplied a few chantries with honest forgeries, and paid for it in the next life.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Physician_Of_The_Vale</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Physician_Of_The_Vale</identifier>
+        <slot>Adulthood</slot>
+        <title>physician of the Vale</title>
+        <titleShort>Vale physician</titleShort>
+        <description>Snow blindness, frostbite and old war wounds came in by the sledload. [PAWN_nameDef] worked with hot water and the Light and saved perhaps one patient more than average.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Astronomer_Of_The_North</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Astronomer_Of_The_North</identifier>
+        <slot>Adulthood</slot>
+        <title>astronomer of the north</title>
+        <titleShort>North astronomer</titleShort>
+        <description>Nights are long up there and the sky very clear. [PAWN_nameDef] charted the stars from a tower of ice and rebuilt the tower every spring.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Eye_Seeker</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Eye_Seeker</identifier>
+        <slot>Adulthood</slot>
+        <title>Eye-seeker</title>
+        <titleShort>Eye-seeker</titleShort>
+        <description>What Ysgramor's people dug up at Saarthal was bigger than anyone thought. [PAWN_nameDef] spent a lifetime tracing the old reports of what the Falmer truly had in that hall.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Canticle_Scribe</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Canticle_Scribe</identifier>
+        <slot>Adulthood</slot>
+        <title>canticle scribe</title>
+        <titleShort>Canticle scribe</titleShort>
+        <description>Scripture needs copying before it's lost, and a lot had already been lost. [PAWN_nameDef] wrote out what survivors could remember, with notes on where they disagreed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Chantry_Exorcist</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Chantry_Exorcist</identifier>
+        <slot>Adulthood</slot>
+        <title>chantry exorcist</title>
+        <titleShort>Chantry exorcist</titleShort>
+        <description>Vampires come to a place like the Vale for the long night and the isolation. [PAWN_nameDef] came for them, with a mace blessed by a very stern priest.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Melee>3</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Mind_Healer</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Mind_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>mind-healer</title>
+        <titleShort>Mind-healer</titleShort>
+        <description>Many survivors of the Dwemer tunnels have trouble sleeping. [PAWN_nameDef] sits with them through the night and does not ask them to explain.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Ice_Glass_Enchanter</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Ice_Glass_Enchanter</identifier>
+        <slot>Adulthood</slot>
+        <title>ice-glass enchanter</title>
+        <titleShort>Ice-glass enchanter</titleShort>
+        <description>Some Snow Elf works were made of a clear stuff that doesn't melt in a warm room. [PAWN_nameDef] knows how it's made, and is one of the last who does.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Vales_Voice</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Vales_Voice</identifier>
+        <slot>Adulthood</slot>
+        <title>Vale's voice</title>
+        <titleShort>Vale's voice</titleShort>
+        <description>Songs in the old high tongue carry from one end of the Vale to the other. [PAWN_nameDef] led the singing when there were many left to sing it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Sun_Fast_Ascetic</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Sun_Fast_Ascetic</identifier>
+        <slot>Adulthood</slot>
+        <title>sun-fast ascetic</title>
+        <titleShort>Sun-faster</titleShort>
+        <description>By long tradition, some of the devout took only what they could gather in full daylight. In the far north, [PAWN_nameDef] found that this is a much harder winter than most.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Dawn_Speaker</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Dawn_Speaker</identifier>
+        <slot>Adulthood</slot>
+        <title>dawn-speaker</title>
+        <titleShort>Dawn-speaker</titleShort>
+        <description>Every chantry had someone who announced the dawn, whatever else was going on. [PAWN_nameDef] called it in the middle of a siege, and it arrived on time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Vyrthurs_Dissenter</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Vyrthurs_Dissenter</identifier>
+        <slot>Adulthood</slot>
+        <title>Vyrthur's dissenter</title>
+        <titleShort>Dissenter</titleShort>
+        <description>The old arch-curate started to speak strangely long before the end. [PAWN_nameDef] said so at a council and was reassigned to a very distant shrine.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Snow_Farmer</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Snow_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>snow farmer</title>
+        <titleShort>Snow farmer</titleShort>
+        <description>Hot springs make small warm plots out of frozen valleys. [PAWN_nameDef] got good barley out of one, with terraces and a lot of cursing under the breath.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Whale_Oil_Merchant</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Whale_Oil_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>whale-oil merchant</title>
+        <titleShort>Oil merchant</titleShort>
+        <description>Whales lit the lamps of half of Skyrim before the wars. [PAWN_nameDef] traded the oil up and down the coast and came to dislike the smell only much later.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Cooking>2</Cooking>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Ice_Cutter_Of_The_Lake</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Ice_Cutter_Of_The_Lake</identifier>
+        <slot>Adulthood</slot>
+        <title>ice-cutter of the lake</title>
+        <titleShort>Lake ice-cutter</titleShort>
+        <description>Clean ice sold to the south at very silly prices. [PAWN_nameDef] cut it with a long saw, packed it in straw and took the profit in dried fruit.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Construction>3</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Sled_Road_Keeper</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Sled_Road_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>sled-road keeper</title>
+        <titleShort>Road keeper</titleShort>
+        <description>Sled roads need smoothing and packing after every storm. [PAWN_nameDef] kept up one stretch of road for thirty years and knew each drift personally.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Furrier_Of_Saarthal</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Furrier_Of_Saarthal</identifier>
+        <slot>Adulthood</slot>
+        <title>furrier of Saarthal</title>
+        <titleShort>Furrier</titleShort>
+        <description>White fox trim sold very well to those who wanted to look northern. [PAWN_nameDef] dressed half the visitors in Saarthal, along with a few of its enemies.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Inn_Keeper_Of_The_Pass</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Inn_Keeper_Of_The_Pass</identifier>
+        <slot>Adulthood</slot>
+        <title>inn-keeper of the pass</title>
+        <titleShort>Innkeeper</titleShort>
+        <description>Nobody goes by the highest inn on the road without stopping, because it's that or freeze. [PAWN_nameDef] charged accordingly and served a hot broth that was widely mentioned.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>5</Cooking>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Ivory_Merchant</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Ivory_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>ivory merchant</title>
+        <titleShort>Ivory merchant</titleShort>
+        <description>Mammoth ivory comes from giants, who are hard to bargain with. [PAWN_nameDef] managed it with a lot of salt, a lot of patience and one close escape.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Silver_Miner</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Silver_Miner</identifier>
+        <slot>Adulthood</slot>
+        <title>silver miner</title>
+        <titleShort>Silver miner</titleShort>
+        <description>Silver from the Vale's mines paid for the Chantries' candlesticks. [PAWN_nameDef] went in at dawn, came out after dark, and only saw the sun on holy days.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>7</Mining>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Goat_Cheese_Maker</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Goat_Cheese_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>goat cheese maker</title>
+        <titleShort>Cheese maker</titleShort>
+        <description>A hard white cheese could keep through a whole Skyrim winter. [PAWN_nameDef]'s was known as far as Solitude and could, when well aged, be used as a doorstop.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Glass_House_Keeper</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Glass_House_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>glass-house keeper</title>
+        <titleShort>Glass-house keeper</titleShort>
+        <description>Fruit trees grew behind glass in the houses of the rich. [PAWN_nameDef] kept one alive through nine winters, and was very upset with the tenth.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Winter_Storyteller</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Winter_Storyteller</identifier>
+        <slot>Adulthood</slot>
+        <title>winter storyteller</title>
+        <titleShort>Storyteller</titleShort>
+        <description>Long nights empty the house of everything but the fire and whoever's talking. [PAWN_nameDef] went from village to village and got paid in food and a warm bed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Bone_And_Horn_Comb_Maker</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Bone_And_Horn_Comb_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>bone-and-horn comb maker</title>
+        <titleShort>Comb maker</titleShort>
+        <description>White hair needs care, and the people of the Vale were vain about theirs. [PAWN_nameDef] made combs for them all and heard most of their secrets.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Snow_Sheep_Shearer</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Snow_Sheep_Shearer</identifier>
+        <slot>Adulthood</slot>
+        <title>snow-sheep shearer</title>
+        <titleShort>Shearer</titleShort>
+        <description>Mountain sheep grow a long, tough fleece and resent losing it. [PAWN_nameDef] sheared the flock each spring and got kicked in a variety of places.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Old_War_Refugee</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Old_War_Refugee</identifier>
+        <slot>Adulthood</slot>
+        <title>old-war refugee</title>
+        <titleShort>Refugee</titleShort>
+        <description>[PAWN_nameDef] walked from one burned town to the next with whoever was left. In time that became a kind of trade, with its own routines and know-how.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Cooking>3</Cooking>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Tomb_Carver</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Tomb_Carver</identifier>
+        <slot>Adulthood</slot>
+        <title>tomb carver</title>
+        <titleShort>Tomb carver</titleShort>
+        <description>There were many dead after Saarthal, and each one deserved a name in stone. [PAWN_nameDef] went on cutting them for decades, with no shortage of work.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Snowshoe_Maker</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Snowshoe_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>snowshoe maker</title>
+        <titleShort>Snowshoe maker</titleShort>
+        <description>Bent ash and gut lacing will carry someone across a very deep drift. [PAWN_nameDef] made them by the hundred, as there were never enough to go around.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Hot_Spring_Bath_Keeper</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Hot_Spring_Bath_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>hot-spring bath keeper</title>
+        <titleShort>Bath keeper</titleShort>
+        <description>Everyone in the Vale eventually comes to the springs, including those who aren't speaking to each other. [PAWN_nameDef] seated them accordingly and kept the peace.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Mule_Driver</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Mule_Driver</identifier>
+        <slot>Adulthood</slot>
+        <title>mule driver</title>
+        <titleShort>Mule driver</titleShort>
+        <description>Mules can walk the passes when everything else stays home. [PAWN_nameDef] walked behind them for a good many years, on the same terms.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Chantry_Baker</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Chantry_Baker</identifier>
+        <slot>Adulthood</slot>
+        <title>chantry baker</title>
+        <titleShort>Chantry baker</titleShort>
+        <description>Holy bread rises slowly in the cold. [PAWN_nameDef] got up at the third bell each night, and had the loaves ready by the time the priests came in.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Atmoran_Interpreter</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Atmoran_Interpreter</identifier>
+        <slot>Adulthood</slot>
+        <title>Atmoran interpreter</title>
+        <titleShort>Interpreter</titleShort>
+        <description>Somebody at Saarthal could speak to the Atmorans and be understood. [PAWN_nameDef] was one of them, and was never quite trusted again by either side.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Road_Toll_Clerk</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Road_Toll_Clerk</identifier>
+        <slot>Adulthood</slot>
+        <title>road-toll clerk</title>
+        <titleShort>Toll clerk</titleShort>
+        <description>Traders on the Vale road paid a toll at a small hut, in coin or kind. [PAWN_nameDef] wrote it all in a neat hand and kept a separate list of who had lied.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Net_Weaver</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Net_Weaver</identifier>
+        <slot>Adulthood</slot>
+        <title>net weaver</title>
+        <titleShort>Net weaver</titleShort>
+        <description>Winter fishing goes on through holes in the ice, and a net needs to fit the hole. [PAWN_nameDef] made them for most of the lake's villages and kept the best for [PAWN_objective]self.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_SnowElf_Adult_Escaped_Dwemer_Servant</defName>
+        <identifier>ESCP_Backstory_SnowElf_Adult_Escaped_Dwemer_Servant</identifier>
+        <slot>Adulthood</slot>
+        <title>escaped Dwemer servant</title>
+        <titleShort>Escaped servant</titleShort>
+        <description>Not every Falmer below became a thrall at once. [PAWN_nameDef] spent years as a household servant in a Dwemer hold, and saw the change coming in the food.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_SnowElf_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Mining>3</Mining>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

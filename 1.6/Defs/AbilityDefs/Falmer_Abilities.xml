@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AbilityDef>
+        <defName>ESCP_Ability_Falmer_Frostbite</defName>
+        <label>frostbite</label>
+        <description>A shard of old cold, thrown at the loudest thing in the room. It has outlived the language it was once cast in.</description>
+        <iconPath>UI/Abilities/Waterskip</iconPath>
+        <aiCanUse>true</aiCanUse>
+        <hostile>true</hostile>
+        <showOnCharacterCard>true</showOnCharacterCard>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <cooldownTicksRange>1800</cooldownTicksRange>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>true</requireLineOfSight>
+            <range>18</range>
+            <warmupTime>1.2</warmupTime>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetBuildings>true</canTargetBuildings>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityLaunchProjectile">
+                <projectileDef>ESCP_Projectile_IceSpike</projectileDef>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.AbilityExtension_SpellAI">
+                <role>Attack</role>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+</Defs>

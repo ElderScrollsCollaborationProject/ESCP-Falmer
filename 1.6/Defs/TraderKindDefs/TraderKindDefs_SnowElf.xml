@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>ESCP_Caravan_SnowElf_Trader</defName>
+        <label>Snow Elf trader</label>
+        <modExtensions>
+            <li Class="ESCP.Currencies.CurrencyReplacement">
+                <currency>ESCP_Currency_Septims</currency>
+            </li>
+        </modExtensions>
+
+        <stockGenerators>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>300~800</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Gold</thingDef>
+                <countRange>10~40</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Cloth</thingDef>
+                <countRange>60~160</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineHerbal</thingDef>
+                <countRange>10~24</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Pemmican</thingDef>
+                <countRange>60~120</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ESCP_Tome_Ward</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ESCP_Tome_Healing</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>ExoticMisc</tag>
+            </li>
+
+        </stockGenerators>
+
+        <tradeCurrency>Silver</tradeCurrency>
+
+    </TraderKindDef>
+
+</Defs>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AbilityDef>
+        <defName>ESCP_Ability_SnowElf_Sunlit_Ward</defName>
+        <label>sunlit ward</label>
+        <description>The caster recites a line from a very old hymn, and pale light settles on the skin. For half a minute it blunts whatever comes at them.</description>
+        <iconPath>UI/Abilities/BulletShield</iconPath>
+        <aiCanUse>true</aiCanUse>
+        <hostile>false</hostile>
+        <targetRequired>false</targetRequired>
+        <showOnCharacterCard>true</showOnCharacterCard>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <statBases>
+            <Ability_Duration>30</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <drawAimPie>false</drawAimPie>
+            <requireLineOfSight>false</requireLineOfSight>
+            <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+            <warmupTime>1.0</warmupTime>
+            <range>0</range>
+            <targetable>false</targetable>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>ESCP_Hediff_SnowElf_Sunlit_Ward</hediffDef>
+                <onlyApplyToSelf>true</onlyApplyToSelf>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.AbilityExtension_SpellAI">
+                <role>SelfBuff</role>
+                <buffHediff>ESCP_Hediff_SnowElf_Sunlit_Ward</buffHediff>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+</Defs>

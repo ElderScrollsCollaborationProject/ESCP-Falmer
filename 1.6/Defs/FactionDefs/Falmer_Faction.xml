@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_Falmer_Hive</defName>
+        <label>Falmer Hive</label>
+        <description>Beneath Skyrim's ice, in caverns where Dwemer engines still turn, the Falmer have made a kind of society out of what was done to them. Hives raid the surface when they are hungry and sometimes when they are not. They take captives. Envoys sent to them do not come back, and there has never been any evidence that the Falmer understood why they had been sent.</description>
+        <colorSpectrum>
+            <li>(0.55, 0.65, 0.7)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Falmer</pawnSingular>
+        <pawnsPlural>Falmer</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.2</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <permanentEnemy>true</permanentEnemy>
+        <canSiege>false</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Warmonger</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <techLevel>Neolithic</techLevel>
+        <fixedName>Falmer Hive</fixedName>
+        <allowedCultures>
+            <li>ESCP_Culture_Falmer</li>
+        </allowedCultures>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>The Long Vengeance</ideoName>
+        <ideoDescription>There may have been something like priests among the Snow Elves, and a shrine or two to Auri-El still stands in the Forgotten Vale. The Falmer who came up from Blackreach keep only the rites that serve the hive: captives are given to the chaurus, shamans read the cold, and the surface is owed a death for every eye that was taken.</ideoDescription>
+        <deityPresets>
+            <li>
+                <nameType><name>Auri-El</name><type>a dim name once sung by Snow Elves, now half remembered</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityAuriEl</iconPath>
+            </li>
+            <li>
+                <nameType><name>The Deep</name><type>the dark that gave them refuge and took the rest</type></nameType>
+                <gender>Female</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+        </deityPresets>
+        <styles>
+            <li>ESCP_Style_Falmer</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_LongVengeance</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Falmer_Child</li>
+                    <li>ESCP_Backstory_Falmer_Citizen</li>
+                    <li>ESCP_Backstory_Falmer_Military</li>
+                    <li>ESCP_Backstory_Falmer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <allowedArrivalTemperatureRange>-70~35</allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Falmer_Melee>10</ESCP_Pawnkind_Falmer_Melee>
+                    <ESCP_Pawnkind_Falmer_Ranged>7</ESCP_Pawnkind_Falmer_Ranged>
+                    <ESCP_Pawnkind_Falmer_Mage>4</ESCP_Pawnkind_Falmer_Mage>
+                    <ESCP_Pawnkind_Falmer_Captain>3</ESCP_Pawnkind_Falmer_Captain>
+                    <ESCP_Pawnkind_Falmer_Elite>2</ESCP_Pawnkind_Falmer_Elite>
+                </options>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Falmer_Citizen>8</ESCP_Pawnkind_Falmer_Citizen>
+                    <ESCP_Pawnkind_Falmer_Melee>10</ESCP_Pawnkind_Falmer_Melee>
+                    <ESCP_Pawnkind_Falmer_Ranged>8</ESCP_Pawnkind_Falmer_Ranged>
+                    <ESCP_Pawnkind_Falmer_Mage>4</ESCP_Pawnkind_Falmer_Mage>
+                    <ESCP_Pawnkind_Falmer_Elite>2</ESCP_Pawnkind_Falmer_Elite>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>Falmer Hive</newLabel>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_SnowElfkindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>ESCP_Faction_Snow_Elf_Empire</defaultFactionDef>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_SnowElf MayRequire="Ludeon.RimWorld.Biotech">1</ESCP_Xenotype_SnowElf>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <maxGenerationAge>65</maxGenerationAge>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>Pemmican</invFoodDef>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Citizen</defName>
+        <label>Snow Elf pilgrim</label>
+        <combatPower>35</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Courtly>0</ESCP_Trait_SnowElf_Courtly>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Merchant</defName>
+        <label>Snow Elf caravaner</label>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~800</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Cape</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Courtly>0</ESCP_Trait_SnowElf_Courtly>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Noble</defName>
+        <label>Snow Elf courtier</label>
+        <combatPower>60</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>600~1200</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Robe</li>
+            <li>Cape</li>
+            <li>RoyalTier5</li>
+            <li>RoyalRobe</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Citizen</li>
+                    <li>ESCP_Backstory_SnowElf_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Courtly>0</ESCP_Trait_SnowElf_Courtly>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Trader</defName>
+        <label>Snow Elf trader</label>
+        <trader>true</trader>
+        <combatPower>40</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~800</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Cape</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Courtly>0</ESCP_Trait_SnowElf_Courtly>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Quartermaster</defName>
+        <label>Snow Elf chantry steward</label>
+        <trader>true</trader>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>500~1000</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Courtly>0</ESCP_Trait_SnowElf_Courtly>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Melee</defName>
+        <label>Snow Elf chantry guard</label>
+        <combatPower>90</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Paladin>0</ESCP_Trait_SnowElf_Paladin>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Ranged</defName>
+        <label>Snow Elf winter archer</label>
+        <combatPower>85</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedBasic</li>
+            <li>NeolithicRangedDecent</li>
+            <li>NeolithicRangedHeavy</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Paladin>0</ESCP_Trait_SnowElf_Paladin>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Mage</defName>
+        <label>Snow Elf sun priest</label>
+        <combatPower>110</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~900</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Robe</li>
+            <li>BestowerHood</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Chantry_Scholar>0</ESCP_Trait_SnowElf_Chantry_Scholar>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_IceSpike</li>
+                    <li>ESCP_Spell_Healing</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_Ward</li>
+                    <li>ESCP_Spell_Paralyze</li>
+                    <li>ESCP_Spell_CloseWounds</li>
+                </randomSpells>
+                <randomCount>1~2</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Captain</defName>
+        <label>Snow Elf paladin captain</label>
+        <combatPower>125</combatPower>
+        <itemQuality>Good</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>700~1300</apparelMoney>
+        <weaponMoney>500~900</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Paladin>0</ESCP_Trait_SnowElf_Paladin>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Ward</li>
+                </spells>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Elite</defName>
+        <label>Snow Elf Knight-Paladin</label>
+        <combatPower>160</combatPower>
+        <itemQuality>Good</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>900~1800</apparelMoney>
+        <weaponMoney>600~1200</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Military</li>
+                    <li>ESCP_Backstory_SnowElf_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Paladin>0</ESCP_Trait_SnowElf_Paladin>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElfkindBase">
+        <defName>ESCP_Pawnkind_SnowElf_Settler</defName>
+        <label>Snow Elf settler</label>
+        <defaultFactionDef>ESCP_Faction_SnowElf_Player</defaultFactionDef>
+        <combatPower>30</combatPower>
+        <isFighter>false</isFighter>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>350~600</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>13~21</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Citizen</li>
+                    <li>ESCP_Backstory_SnowElf_Military</li>
+                    <li>ESCP_Backstory_SnowElf_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Courtly>0</ESCP_Trait_SnowElf_Courtly>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

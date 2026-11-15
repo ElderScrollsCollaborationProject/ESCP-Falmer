@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ScenarioDef[defName="ESCP_Scenario_SnowElf"]</xpath>
+        <value>
+            <li Class="ESCP.Core.ScenarioEras">
+                <eras>
+                    <li>1</li>
+                </eras>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_SnowElf</defName>
+        <label>Snow Elf</label>
+        <description>The old culture of the Snow Elves, full of white stone and sun hymns, with a very long memory for who has been rude to them. Nearly everything known of it comes from ruins, which they would have found humiliating.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_SnowElf_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_SnowElf_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_SnowElf</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_SnowElf</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_SnowElf</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_SnowElf</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_SnowElf</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_SnowElf</defName>
+        <label>Snow Elf</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_SnowElf_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_SnowElf_Names_Male] [ESCP_SnowElf_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_SnowElf_Names_Male->Names/ESCP_SnowElf_Names_Male</li>
+                <li>ESCP_SnowElf_Names_Last->Names/ESCP_SnowElf_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_SnowElf_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_SnowElf_Names_Female] [ESCP_SnowElf_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_SnowElf_Names_Female->Names/ESCP_SnowElf_Names_Female</li>
+                <li>ESCP_SnowElf_Names_Last->Names/ESCP_SnowElf_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_SnowElf</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Snow Prince</li>
+                <li>r_leaderTitle->Arch-Curate</li>
+                <li>r_leaderTitle->Knight-Paladin</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_SnowElf</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Auri</li>
+                <li>hyphenPrefix->Frost</li>
+                <li>hyphenPrefix->Chantry</li>
+                <li>hyphenPrefix->Snow</li>
+                <li>r_ideoName->The Chantry of Auri-El</li>
+                <li>r_ideoName->The Sun Hymns</li>
+                <li>r_ideoName->The Long Light</li>
+                <li>r_ideoName->The Vale Rite</li>
+                <li>r_ideoAdjective->Aetherial</li>
+                <li>r_ideoAdjective->Chantry</li>
+                <li>r_memberName->Curate</li>
+                <li>r_memberName->Votary</li>
+                <li>r_memberName->Pilgrim</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_SnowElf</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Auri-El</li>
+                <li>r_deityName->Trinimac</li>
+                <li>r_deityName->Magnus</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_SnowElf</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->the sun-bright king of the Aldmeri gods</li>
+                <li>r_deityType->champion of the elven gods</li>
+                <li>r_deityType->the architect who left his eye behind</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_SnowElf</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The First Sunrise</li>
+                <li>festivalName->The Vale Procession</li>
+                <li>festivalName->Auri-El's Vigil</li>
+                <li>festivalName->The Long Hymn</li>
+                <li>festivalName->The Lighting of the Glacier</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

@@ -1,0 +1,2393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Hive_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Hive_Child</identifier>
+        <slot>Childhood</slot>
+        <title>hive whelp</title>
+        <titleShort>Whelp</titleShort>
+        <description>[PAWN_nameDef] was raised in the warm dark near the chaurus pens, fighting siblings for food. [PAWN_pronoun] had learned before anything else to identify every creature in the hive by the sound of its feet.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Egg_Tender</defName>
+        <identifier>ESCP_Backstory_Falmer_Egg_Tender</identifier>
+        <slot>Childhood</slot>
+        <title>egg tender</title>
+        <titleShort>Tender</titleShort>
+        <description>[PAWN_nameDef] spent childhood turning chaurus eggs in the warm sacs of the lower hive and fetching them whatever they ate. It bred a strong stomach, and very little else.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Dwemer_Ruin</defName>
+        <identifier>ESCP_Backstory_Falmer_Dwemer_Ruin</identifier>
+        <slot>Childhood</slot>
+        <title>ruin scavenger</title>
+        <titleShort>Scavenger</titleShort>
+        <description>The old machines still hum in the walls, and [PAWN_nameDef] crept through them by touch, stripping metal for blades. Twice a centurion woke up. Twice [PAWN_pronoun] heard it first.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Skulker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Skulker</identifier>
+        <slot>Adulthood</slot>
+        <title>skulker</title>
+        <titleShort>Skulker</titleShort>
+        <description>[PAWN_nameDef] went out on many surface raids, waiting in the snow until someone walked close enough. The hive has eaten well because of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Stalker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Stalker</identifier>
+        <slot>Adulthood</slot>
+        <title>bone-bow stalker</title>
+        <titleShort>Stalker</titleShort>
+        <description>[PAWN_nameDef] looses arrows at heartbeats and footfalls in the dark, and misses less often than those on the receiving end would like. Poison handles the rest.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Pen_Keeper</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Pen_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>pen keeper</title>
+        <titleShort>Keeper</titleShort>
+        <description>[PAWN_nameDef] drove chaurus for the hive, herding them with sharp clicks and a pointed stick. It takes a certain kind of person, and that person is seldom missed by anyone.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Fungus_Gatherer</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Fungus_Gatherer</identifier>
+        <slot>Adulthood</slot>
+        <title>fungus gatherer</title>
+        <titleShort>Gatherer</titleShort>
+        <description>[PAWN_nameDef] spent years in the Blackreach caverns, picking through glowing fungus by touch and smell. The glow itself was never of any use to [PAWN_objective].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Shaman</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Shaman</identifier>
+        <slot>Adulthood</slot>
+        <title>hive shaman</title>
+        <titleShort>Shaman</titleShort>
+        <description>[PAWN_nameDef] keeps what is left of the old rites, which amounts to some cold magic, a sequence of sounds, and the job of deciding who gets fed to what.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Betrayed</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Betrayed</identifier>
+        <slot>Adulthood</slot>
+        <title>Forgotten Vale wanderer</title>
+        <titleShort>Wanderer</titleShort>
+        <description>[PAWN_nameDef] once wandered too far and found stone halls under open sky, with a wayshrine that hummed faintly. Something there remembered [PAWN_possessive] people's true name. [PAWN_pronoun] left quickly and has been unsettled ever since.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>3</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Blind_Birth</defName>
+        <identifier>ESCP_Backstory_Falmer_Blind_Birth</identifier>
+        <slot>Childhood</slot>
+        <title>blind-born</title>
+        <titleShort>Blind-born</titleShort>
+        <description>[PAWN_nameDef] came into the world with no eyes to speak of, like everyone [PAWN_pronoun] knew. It would be years before the word for sight meant anything, and it never meant much.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Bone_Pile</defName>
+        <identifier>ESCP_Backstory_Falmer_Bone_Pile</identifier>
+        <slot>Childhood</slot>
+        <title>feast scrap</title>
+        <titleShort>Scrap</titleShort>
+        <description>After raids the hive's young fought over whatever the warriors left. [PAWN_nameDef] came out of those fights with most of [PAWN_possessive] teeth.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Listener</defName>
+        <identifier>ESCP_Backstory_Falmer_Listener</identifier>
+        <slot>Childhood</slot>
+        <title>wall listener</title>
+        <titleShort>Listener</titleShort>
+        <description>[PAWN_nameDef] was placed against the cold stone with one ear flat, reporting every far-off footfall. The wall was the only teacher [PAWN_pronoun] ever needed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Thrall_Spawn</defName>
+        <identifier>ESCP_Backstory_Falmer_Thrall_Spawn</identifier>
+        <slot>Childhood</slot>
+        <title>thrall-born</title>
+        <titleShort>Thrall-born</titleShort>
+        <description>[PAWN_nameDef]'s mother was taken from the surface and did not live long. The hive never told [PAWN_objective] about her, and did not know the words to.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Hut_Maker</defName>
+        <identifier>ESCP_Backstory_Falmer_Hut_Maker</identifier>
+        <slot>Childhood</slot>
+        <title>chitin gatherer</title>
+        <titleShort>Gatherer</titleShort>
+        <description>Falmer huts are built from what chaurus shed. [PAWN_nameDef] dragged the plates through the tunnels as soon as [PAWN_pronoun] was strong enough.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Lost_Young</defName>
+        <identifier>ESCP_Backstory_Falmer_Lost_Young</identifier>
+        <slot>Childhood</slot>
+        <title>Blackreach stray</title>
+        <titleShort>Stray</titleShort>
+        <description>[PAWN_nameDef] got separated in Blackreach for most of a season and came back fat. Nobody asked what [PAWN_pronoun] had been eating, since nobody there could ask anything.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Captive_Taker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Captive_Taker</identifier>
+        <slot>Adulthood</slot>
+        <title>captive taker</title>
+        <titleShort>Taker</titleShort>
+        <description>Dragging a living Nord through a mile of tunnel takes more skill than killing one. [PAWN_nameDef] has done it more times than the hive can count, because the hive can't count.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Warlord_Guard</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Warlord_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>warmonger's shadow</title>
+        <titleShort>Shadow</titleShort>
+        <description>[PAWN_nameDef] followed a warmonger through a dozen raids, two paces behind and to the left, close enough to hear the breathing change.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Poison_Maker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Poison_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>poison maker</title>
+        <titleShort>Poisoner</titleShort>
+        <description>[PAWN_nameDef] prepared arrow venom from chaurus glands, tasting each batch to check it. Over the years [PAWN_pronoun] has become rather hard to poison.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Tunnel_Ambusher</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Tunnel_Ambusher</identifier>
+        <slot>Adulthood</slot>
+        <title>tunnel ambusher</title>
+        <titleShort>Ambusher</titleShort>
+        <description>[PAWN_nameDef] has ruined several Dwemer ruin expeditions. They carry torches and talk constantly, which [PAWN_pronoun] has always been grateful for.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Surface_Raider</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Surface_Raider</identifier>
+        <slot>Adulthood</slot>
+        <title>surface raider</title>
+        <titleShort>Raider</titleShort>
+        <description>[PAWN_nameDef] came up through the ice at night to take sheep and shepherds alike. The cold, at least, felt like home.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Dwemer_Scrap</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Dwemer_Scrap</identifier>
+        <slot>Adulthood</slot>
+        <title>scrap smith</title>
+        <titleShort>Smith</titleShort>
+        <description>[PAWN_nameDef] beats scavenged bronze into jagged swords by feel, working from memory of what a good edge sounds like.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Hive_Builder</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Hive_Builder</identifier>
+        <slot>Adulthood</slot>
+        <title>hive builder</title>
+        <titleShort>Builder</titleShort>
+        <description>[PAWN_nameDef] raised shell huts across a cavern floor, working by touch and echo. They look awful and have lasted a very long time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Water_Keeper</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Water_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>cistern keeper</title>
+        <titleShort>Keeper</titleShort>
+        <description>[PAWN_nameDef] looked after the dripping Dwemer pipes the hive drank from, without any idea of who laid them or why.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Mining>4</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Meat_Keeper</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Meat_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>larder keeper</title>
+        <titleShort>Larder</titleShort>
+        <description>[PAWN_nameDef] kept the hive's meat cold, sorted by how long it had stopped screaming.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Rock_Biter</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Rock_Biter</identifier>
+        <slot>Adulthood</slot>
+        <title>cave digger</title>
+        <titleShort>Digger</titleShort>
+        <description>With blunt picks stolen from old mines, [PAWN_nameDef] opened new tunnels toward any noise that sounded like food.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>7</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Cold_Speaker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Cold_Speaker</identifier>
+        <slot>Adulthood</slot>
+        <title>cold speaker</title>
+        <titleShort>Speaker</titleShort>
+        <description>Long sequences of clicks and hisses are all that remain of the Snow Elves' hymns. [PAWN_nameDef] performs them perfectly, and has no notion what they say.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Frost_Reader</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Frost_Reader</identifier>
+        <slot>Adulthood</slot>
+        <title>frost reader</title>
+        <titleShort>Reader</titleShort>
+        <description>[PAWN_nameDef] feels the ice with [PAWN_possessive] palms and tells the raiders when to go. It is right about the weather a little more often than chance.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Rite_Butcher</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Rite_Butcher</identifier>
+        <slot>Adulthood</slot>
+        <title>rite butcher</title>
+        <titleShort>Butcher</titleShort>
+        <description>Somebody decides which captive goes to which chaurus, and how. [PAWN_nameDef] does this with what the hive understands to be reverence.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Hollow_Oracle</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Hollow_Oracle</identifier>
+        <slot>Adulthood</slot>
+        <title>hollow oracle</title>
+        <titleShort>Oracle</titleShort>
+        <description>[PAWN_nameDef] sits in a side cavern and answers questions in the long hiss. Warmongers come to [PAWN_objective] before raids, and sometimes kill [PAWN_objective] successors after them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Chaurus_Nest_Crawler</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Chaurus_Nest_Crawler</identifier>
+        <slot>Childhood</slot>
+        <title>chaurus nest crawler</title>
+        <titleShort>Nest crawler</titleShort>
+        <description>Only a very small body fits in the egg chambers, so [PAWN_nameDef] was sent in. Young chaurus learned the scent and mostly left the child alone.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Fungus_Bed_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Fungus_Bed_Child</identifier>
+        <slot>Childhood</slot>
+        <title>fungus bed child</title>
+        <titleShort>Fungus child</titleShort>
+        <description>Pale growths along the wet walls feed most of a hive. [PAWN_nameDef] knew them all by touch and got slapped for eating the seed caps.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Blind_Pup</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Blind_Pup</identifier>
+        <slot>Childhood</slot>
+        <title>blind pup</title>
+        <titleShort>Pup</titleShort>
+        <description>Falmer children do not know that they are missing anything. [PAWN_nameDef] ran through dark tunnels at full speed, tracing the walls with one hand.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Echo_Clicker</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Echo_Clicker</identifier>
+        <slot>Childhood</slot>
+        <title>echo-clicker</title>
+        <titleShort>Clicker</titleShort>
+        <description>A tongue click returns off stone differently than it does off flesh. [PAWN_nameDef] played this game with other children until it stopped being a game.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Skull_Gnawer</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Skull_Gnawer</identifier>
+        <slot>Childhood</slot>
+        <title>skull-gnawer</title>
+        <titleShort>Skull-gnawer</titleShort>
+        <description>What the adults left of a raid went to the young. [PAWN_nameDef] grew strong on it and learned where the marrow hides.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Pit_Born</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Pit_Born</identifier>
+        <slot>Childhood</slot>
+        <title>pit-born</title>
+        <titleShort>Pit-born</titleShort>
+        <description>Weak children go down the pit, and the strong climb out. [PAWN_nameDef] climbed out on the second try, with someone else's ear in hand.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Sunderstone_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Sunderstone_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Sunderstone child</title>
+        <titleShort>Sunderstone</titleShort>
+        <description>Sunderstone Gorge's waters roar through the rock so loud that nobody can hear hunting. [PAWN_nameDef] learned to feel footsteps through the soles of the feet instead.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Darkfall_Stray</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Darkfall_Stray</identifier>
+        <slot>Childhood</slot>
+        <title>Darkfall stray</title>
+        <titleShort>Stray</titleShort>
+        <description>Somewhere beneath Darkfall the tribes meet and fight, and the losers leave children behind. [PAWN_nameDef] was found in a side passage and fed for no clear reason.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Alftand_Tunnel_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Alftand_Tunnel_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Alftand tunnel child</title>
+        <titleShort>Alftand</titleShort>
+        <description>Old metal lies all over the halls below Alftand. [PAWN_nameDef] pried it up with bare fingers and brought it to the smiths, for scraps.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Mzulft_Scrap_Runner</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Mzulft_Scrap_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>Mzulft scrap-runner</title>
+        <titleShort>Scrap-runner</titleShort>
+        <description>Machines still move in Mzulft, and they don't care who was there first. [PAWN_nameDef] ran between them with a bag of gears, hearing them turn.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Blackreach_Born</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Blackreach_Born</identifier>
+        <slot>Childhood</slot>
+        <title>Blackreach-born</title>
+        <titleShort>Blackreach</titleShort>
+        <description>Blackreach is vast enough that the echoes do not come back. [PAWN_nameDef] was one of the few born there who liked the feeling.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Chaurus_Milk_Stealer</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Chaurus_Milk_Stealer</identifier>
+        <slot>Childhood</slot>
+        <title>chaurus milk stealer</title>
+        <titleShort>Milk stealer</titleShort>
+        <description>Chaurus give off a sour fluid that the hive makes into something like food. [PAWN_nameDef] stole it from the pens and had the acid scars to prove it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Bat_Catcher</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Bat_Catcher</identifier>
+        <slot>Childhood</slot>
+        <title>bat catcher</title>
+        <titleShort>Bat catcher</titleShort>
+        <description>Bats make very good eating and hear better than any Falmer. [PAWN_nameDef] spent years learning to wait until one forgot.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Shamans_Stool_Bearer</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Shamans_Stool_Bearer</identifier>
+        <slot>Childhood</slot>
+        <title>shaman's stool-bearer</title>
+        <titleShort>Stool-bearer</titleShort>
+        <description>Shamans need somebody to fetch and hold things, including their temper. [PAWN_nameDef] carried a bone stool and overheard a great deal about who would die next.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Thrall_Pen_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Thrall_Pen_Child</identifier>
+        <slot>Childhood</slot>
+        <title>thrall-pen child</title>
+        <titleShort>Pen child</titleShort>
+        <description>Some children were born among the prisoners, and nobody asked whose. [PAWN_nameDef] grew up hauling stones with the captured Nords and picked up a little of their speech.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Spider_Web_Gatherer</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Spider_Web_Gatherer</identifier>
+        <slot>Childhood</slot>
+        <title>spider-web gatherer</title>
+        <titleShort>Web gatherer</titleShort>
+        <description>Frostbite spiders leave their old webs behind if you are patient. [PAWN_nameDef] brought armfuls home, and the armor makers used them to bind chitin.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Venom_Sac_Carrier</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Venom_Sac_Carrier</identifier>
+        <slot>Childhood</slot>
+        <title>venom sac carrier</title>
+        <titleShort>Sac carrier</titleShort>
+        <description>Chaurus venom has to be moved carefully from the pens to the bowmakers. [PAWN_nameDef] dropped only one sac and has been missing a patch of skin since.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Surface_Burned_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Surface_Burned_Child</identifier>
+        <slot>Childhood</slot>
+        <title>surface-burned child</title>
+        <titleShort>Sun-burned</titleShort>
+        <description>Sunlight has no meaning to the blind, but they know heat on the skin. [PAWN_nameDef] went too far up an ice shaft one day and came back with a blistered face.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Ice_Melt_Fetcher</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Ice_Melt_Fetcher</identifier>
+        <slot>Childhood</slot>
+        <title>ice-melt fetcher</title>
+        <titleShort>Fetcher</titleShort>
+        <description>Water drips clean from high cracks where the glacier sits on the rock. [PAWN_nameDef] climbed up with a skin bag each day and was seldom thanked.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_War_Drum_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_War_Drum_Child</identifier>
+        <slot>Childhood</slot>
+        <title>war-drum child</title>
+        <titleShort>Drummer</titleShort>
+        <description>Beats on a stretched hide carry for miles under stone. As the youngest in the band, [PAWN_nameDef] drummed the signal when the hive was on the move.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Chitin_Scraper</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Chitin_Scraper</identifier>
+        <slot>Childhood</slot>
+        <title>chitin scraper</title>
+        <titleShort>Chitin scraper</titleShort>
+        <description>Molted shells must be scraped clean before use. [PAWN_nameDef] did this for days on end, in a stench that only other Falmer could enjoy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Tunnel_Sealer</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Tunnel_Sealer</identifier>
+        <slot>Childhood</slot>
+        <title>tunnel-sealer</title>
+        <titleShort>Sealer</titleShort>
+        <description>Dead passages get walled up with stones and resin. [PAWN_nameDef] had the small hands needed to push the last stones in from the proper side.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Lost_From_The_Raiders</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Lost_From_The_Raiders</identifier>
+        <slot>Childhood</slot>
+        <title>lost from the raiders</title>
+        <titleShort>Raid lost</titleShort>
+        <description>A raid on a Nord farmstead came home one Falmer short. The small one left behind, [PAWN_nameDef], followed the smell back to the cave after three nights outside.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Scent_Marker</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Scent_Marker</identifier>
+        <slot>Childhood</slot>
+        <title>scent-marker</title>
+        <titleShort>Scent-marker</titleShort>
+        <description>Tunnels are marked by smell for those who know the code. [PAWN_nameDef] learned these marks at the age when others learned to fight.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Deep_Crawlers_Whelp</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Deep_Crawlers_Whelp</identifier>
+        <slot>Childhood</slot>
+        <title>deep crawler's whelp</title>
+        <titleShort>Crawler's whelp</titleShort>
+        <description>Some Falmer never come up from the lowest levels, and some children never see the top. [PAWN_nameDef] thought the deep tunnels were all of the world.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>3</Mining>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Gut_Readers_Helper</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Gut_Readers_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>gut-reader's helper</title>
+        <titleShort>Helper</titleShort>
+        <description>Shamans read fortune in fresh entrails, and someone has to hold the bowl. [PAWN_nameDef] learned how bodies fit together from that bowl and came to know them well.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Captives_Pet</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Captives_Pet</identifier>
+        <slot>Childhood</slot>
+        <title>captive's pet</title>
+        <titleShort>Pet</titleShort>
+        <description>A Nord prisoner, far gone in the head, spoke kindly to the child who brought her food. [PAWN_nameDef] copied the sounds, without any idea what they meant.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Rat_Pit_Fighter</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Rat_Pit_Fighter</identifier>
+        <slot>Childhood</slot>
+        <title>rat-pit fighter</title>
+        <titleShort>Rat-pit fighter</titleShort>
+        <description>Elder Falmer set the children on skeevers and bet food on the outcome. [PAWN_nameDef] got a reputation, and a good deal more to eat than most.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Moss_Eater</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Moss_Eater</identifier>
+        <slot>Childhood</slot>
+        <title>moss eater</title>
+        <titleShort>Moss eater</titleShort>
+        <description>Bad winters empty the pens, and the young get whatever's left on the walls. [PAWN_nameDef] survived one on moss, and the taste still lingers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>4</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Bone_Whistle_Maker</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Bone_Whistle_Maker</identifier>
+        <slot>Childhood</slot>
+        <title>bone-whistle maker</title>
+        <titleShort>Whistle maker</titleShort>
+        <description>Certain pitches send chaurus to the pens and others bring them out. [PAWN_nameDef] cut whistles out of finger bones and tested them, with some close calls.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Ember_Keeper</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Ember_Keeper</identifier>
+        <slot>Childhood</slot>
+        <title>ember-keeper</title>
+        <titleShort>Ember-keeper</titleShort>
+        <description>Fire is not much use to the blind except for warmth and meat, but a hive keeps one. [PAWN_nameDef] fed it and knew how it sounded when it was close to dying.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Rock_Listener</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Rock_Listener</identifier>
+        <slot>Childhood</slot>
+        <title>rock-listener</title>
+        <titleShort>Rock-listener</titleShort>
+        <description>Pressing a cheek to the rock tells who's coming from which direction. [PAWN_nameDef] did this at the cave mouth and gave warning with a low hiss.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>3</Mining>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Snow_Crust_Scavenger</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Snow_Crust_Scavenger</identifier>
+        <slot>Childhood</slot>
+        <title>snow-crust scavenger</title>
+        <titleShort>Snow scavenger</titleShort>
+        <description>Above the hive, frozen birds and hares turn up in the snow after storms. [PAWN_nameDef] went out by night and felt for them under the crust.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Hive_Twin</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Hive_Twin</identifier>
+        <slot>Childhood</slot>
+        <title>hive twin</title>
+        <titleShort>Hive twin</titleShort>
+        <description>Two came out alive at the same birth, and only one would be raised. [PAWN_nameDef] was the one that bit first, and everyone in the hive knows the tale.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Fire_Shy_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Fire_Shy_Child</identifier>
+        <slot>Childhood</slot>
+        <title>fire-shy child</title>
+        <titleShort>Fire-shy</titleShort>
+        <description>A torch thrown down the shaft by Nord raiders took half the nursery. [PAWN_nameDef] came through with burned hands and a fine sense of where the air was moving.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Old_Stair_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Old_Stair_Child</identifier>
+        <slot>Childhood</slot>
+        <title>old stair child</title>
+        <titleShort>Stair child</titleShort>
+        <description>The stairs in the old part of the hive were cut by Snow Elves or maybe by Dwemer, and no one remembers. [PAWN_nameDef] knew each worn place in them by foot.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Bowstring_Chewer</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Bowstring_Chewer</identifier>
+        <slot>Childhood</slot>
+        <title>bowstring chewer</title>
+        <titleShort>String chewer</titleShort>
+        <description>Sinew has to be softened somehow. [PAWN_nameDef] chewed it into bowstrings from morning to night and lost several teeth in the service of the hive.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Captive_Feeder</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Captive_Feeder</identifier>
+        <slot>Childhood</slot>
+        <title>captive-feeder</title>
+        <titleShort>Captive-feeder</titleShort>
+        <description>Prisoners that starve are a waste of good meat and good labor. [PAWN_nameDef] went from cage to cage with a bowl and got bitten only sometimes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Shaft_Dropper</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Shaft_Dropper</identifier>
+        <slot>Childhood</slot>
+        <title>shaft-dropper</title>
+        <titleShort>Shaft-dropper</titleShort>
+        <description>Stones can be dropped on enemies from above, if you know where they're walking. [PAWN_nameDef] sat over the main shaft and listened for days on end.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Wandering_Hives_Child</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Wandering_Hives_Child</identifier>
+        <slot>Childhood</slot>
+        <title>wandering hive's child</title>
+        <titleShort>Wanderer</titleShort>
+        <description>When a Dwemer machine broke through the home tunnels, the whole hive moved. [PAWN_nameDef] remembers little but walking in the dark while holding someone's heel.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Melee>1</Melee>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Child_Eggshell_Cup_Maker</defName>
+        <identifier>ESCP_Backstory_Falmer_Child_Eggshell_Cup_Maker</identifier>
+        <slot>Childhood</slot>
+        <title>eggshell cup maker</title>
+        <titleShort>Cup maker</titleShort>
+        <description>Chaurus eggshells are tough and hold liquid well. [PAWN_nameDef] broke them clean and made cups used for water, venom and, in a pinch, a ritual.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Chaurus_War_Handler</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Chaurus_War_Handler</identifier>
+        <slot>Adulthood</slot>
+        <title>chaurus war-handler</title>
+        <titleShort>War-handler</titleShort>
+        <description>A hive goes to war with its beasts in front. [PAWN_nameDef] walked behind them with a long goad, and knew the moment they'd turn around.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Gloomlurker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Gloomlurker</identifier>
+        <slot>Adulthood</slot>
+        <title>gloomlurker</title>
+        <titleShort>Gloomlurker</titleShort>
+        <description>Gloomlurkers kill in places with no room to swing. [PAWN_nameDef] spent long years pressed flat in a crack in the rock, waiting for warm breath.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Shadowmaster</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Shadowmaster</identifier>
+        <slot>Adulthood</slot>
+        <title>shadowmaster</title>
+        <titleShort>Shadowmaster</titleShort>
+        <description>Few are ever given the shadowmaster's rank, and it's taken back only one way. [PAWN_nameDef] has kept it through more than a dozen challenges.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Warmongers_Bow</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Warmongers_Bow</identifier>
+        <slot>Adulthood</slot>
+        <title>warmonger's bow</title>
+        <titleShort>War bow</titleShort>
+        <description>Falmer archers shoot at sound, and they're seldom wrong. [PAWN_nameDef] tracked a Nord by his breathing across a whole cavern and put an arrow through it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Blackblade</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Blackblade</identifier>
+        <slot>Adulthood</slot>
+        <title>blackblade</title>
+        <titleShort>Blackblade</titleShort>
+        <description>Chitin edges break, but they cut very deep before they do. [PAWN_nameDef] made a set of curved ones and carried them into the fighting in the old halls.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Poison_Arrow_Hunter</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Poison_Arrow_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>poison-arrow hunter</title>
+        <titleShort>Poison hunter</titleShort>
+        <description>There's a lot of venom in one chaurus, and it goes a long way on an arrow. [PAWN_nameDef] seldom had to shoot anything twice.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Ice_Shaft_Sentry</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Ice_Shaft_Sentry</identifier>
+        <slot>Adulthood</slot>
+        <title>ice-shaft sentry</title>
+        <titleShort>Ice sentry</titleShort>
+        <description>Cold comes down the shaft first, followed by whoever's coming. [PAWN_nameDef] stood in that draft for years, listening to the snow.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Nord_Taker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Nord_Taker</identifier>
+        <slot>Adulthood</slot>
+        <title>Nord-taker</title>
+        <titleShort>Nord-taker</titleShort>
+        <description>Nord farms give a good haul of meat and captive hands. [PAWN_nameDef] led the night raids and knew how to pull someone out of bed without waking the dog.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Dwemer_Machine_Breaker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Dwemer_Machine_Breaker</identifier>
+        <slot>Adulthood</slot>
+        <title>Dwemer-machine breaker</title>
+        <titleShort>Machine breaker</titleShort>
+        <description>Old grudges run down the bloodline, even when memory doesn't. [PAWN_nameDef] goes after the walking bronze things wherever they turn up, and takes them apart.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Tunnel_War_Veteran</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Tunnel_War_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>tunnel-war veteran</title>
+        <titleShort>Tunnel veteran</titleShort>
+        <description>Hive against hive is the worst kind of fighting, with both sides as blind as each other. [PAWN_nameDef] came out of the Blackreach wars with one working ear.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Cave_Mouth_Ambusher</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Cave_Mouth_Ambusher</identifier>
+        <slot>Adulthood</slot>
+        <title>cave-mouth ambusher</title>
+        <titleShort>Ambusher</titleShort>
+        <description>Adventurers have a bad habit of walking in with torches. [PAWN_nameDef] stayed behind them and listened as they talked about treasure and then stopped.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Trap_Setter</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Trap_Setter</identifier>
+        <slot>Adulthood</slot>
+        <title>trap setter</title>
+        <titleShort>Trap setter</titleShort>
+        <description>Spikes, bone chimes and a tripline at ankle height will do for most people. [PAWN_nameDef] rigs every approach to the hive, and walks them daily in bare feet.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>5</Construction>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Gut_Hook_Fighter</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Gut_Hook_Fighter</identifier>
+        <slot>Adulthood</slot>
+        <title>gut-hook fighter</title>
+        <titleShort>Hook fighter</titleShort>
+        <description>A bent hook goes into the belly easily and comes out with more. [PAWN_nameDef] preferred it for that reason, and was given a wide berth at meals.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Night_Stalker_Of_The_Reach</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Night_Stalker_Of_The_Reach</identifier>
+        <slot>Adulthood</slot>
+        <title>night stalker of the Reach</title>
+        <titleShort>Night stalker</titleShort>
+        <description>Up in the Reach, the Forsworn and Falmer hunt the same nights. [PAWN_nameDef] came up out of the ground often enough to learn the difference.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Plants>2</Plants>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Screamer</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Screamer</identifier>
+        <slot>Adulthood</slot>
+        <title>screamer</title>
+        <titleShort>Screamer</titleShort>
+        <description>Certain cries in a tunnel will pass for a dozen voices. [PAWN_nameDef] used them to scare enemy bands into running blindly the wrong way.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Elders_Right_Hand</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Elders_Right_Hand</identifier>
+        <slot>Adulthood</slot>
+        <title>elder's right hand</title>
+        <titleShort>Right hand</titleShort>
+        <description>An elder needs someone standing close who'll take a knife meant for them. [PAWN_nameDef] has taken three so far and lived, which helped [PAWN_possessive] standing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Snow_Raider</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Snow_Raider</identifier>
+        <slot>Adulthood</slot>
+        <title>snow raider</title>
+        <titleShort>Snow raider</titleShort>
+        <description>Few Falmer will walk the open mountains, since wind eats sound. [PAWN_nameDef] goes anyway, wrapped in stolen wool and following the slope.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Chitin_Armorer_Of_War</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Chitin_Armorer_Of_War</identifier>
+        <slot>Adulthood</slot>
+        <title>chitin armorer of war</title>
+        <titleShort>War armorer</titleShort>
+        <description>Armor from chaurus plate has to be fitted by touch. [PAWN_nameDef] made all that the band wore and fought in the front rank to see how it held up.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Frost_Shaman</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Frost_Shaman</identifier>
+        <slot>Adulthood</slot>
+        <title>frost shaman</title>
+        <titleShort>Frost shaman</titleShort>
+        <description>Cold comes when called, as it's never very far off in Skyrim's caves. [PAWN_nameDef] called it down on a thane's son and was given his sword for a staff.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Fire_Shaman</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Fire_Shaman</identifier>
+        <slot>Adulthood</slot>
+        <title>fire shaman</title>
+        <titleShort>Fire shaman</titleShort>
+        <description>Flame means little to the eyeless but they fear it anyway. [PAWN_nameDef] learned its heat from the outside in and throws it by sound.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Bone_Scryer</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Bone_Scryer</identifier>
+        <slot>Adulthood</slot>
+        <title>bone-scryer</title>
+        <titleShort>Bone-scryer</titleShort>
+        <description>Cast finger bones speak in the rattle they make. [PAWN_nameDef] heard the coming of three raids and one great hunger that way, or claims to have.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Ancient_Name_Keeper</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Ancient_Name_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>ancient name keeper</title>
+        <titleShort>Name keeper</titleShort>
+        <description>A few sounds, passed down, may once have been names of Snow Elf kings. [PAWN_nameDef] chants them in order, with no notion of who they were.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Chaurus_Speaker</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Chaurus_Speaker</identifier>
+        <slot>Adulthood</slot>
+        <title>chaurus speaker</title>
+        <titleShort>Chaurus speaker</titleShort>
+        <description>Certain shamans can settle the pens with a low sound in the throat. [PAWN_nameDef] sat with the breeding queen for days and walked away from it unbitten.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Wound_Sealer</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Wound_Sealer</identifier>
+        <slot>Adulthood</slot>
+        <title>wound-sealer</title>
+        <titleShort>Wound-sealer</titleShort>
+        <description>Hot resin, a sharp bone and a firm hand can do a lot. [PAWN_nameDef] works by feel and keeps more fighters alive than the Nords would believe possible.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Elder_Of_The_Dark_Rite</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Elder_Of_The_Dark_Rite</identifier>
+        <slot>Adulthood</slot>
+        <title>elder of the dark rite</title>
+        <titleShort>Dark elder</titleShort>
+        <description>Prisoners are bled at certain times, and the reason's been lost, except that the elders must keep doing it. [PAWN_nameDef] keeps doing it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Lightning_Touched_Shaman</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Lightning_Touched_Shaman</identifier>
+        <slot>Adulthood</slot>
+        <title>lightning-touched shaman</title>
+        <titleShort>Spark shaman</titleShort>
+        <description>Storms reach down the upper shafts sometimes, and some shamans are said to catch one. [PAWN_nameDef] has done it twice and has a tremor in one hand.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Prophet_Of_The_Betrayed</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Prophet_Of_The_Betrayed</identifier>
+        <slot>Adulthood</slot>
+        <title>prophet of the Betrayed</title>
+        <titleShort>Prophet</titleShort>
+        <description>[PAWN_nameDef] tells the hive it was wronged long ago, and that the wrong will be repaid. It doesn't matter that no one recalls by whom.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Mind_Sickener</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Mind_Sickener</identifier>
+        <slot>Adulthood</slot>
+        <title>mind-sickener</title>
+        <titleShort>Mind-sickener</titleShort>
+        <description>Some shamans know how to make a captive see things and not trust what they see. [PAWN_nameDef] learned on the Nords and gets better results each year.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Hive_Midwife</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Hive_Midwife</identifier>
+        <slot>Adulthood</slot>
+        <title>hive midwife</title>
+        <titleShort>Midwife</titleShort>
+        <description>Births are hard in a cold cave, and [PAWN_nameDef] oversees them all, deciding which children get the first feeding. No one questions these decisions.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Social>1</Social>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Ruin_Oracle</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Ruin_Oracle</identifier>
+        <slot>Adulthood</slot>
+        <title>ruin-oracle</title>
+        <titleShort>Ruin-oracle</titleShort>
+        <description>Hands on an old Dwemer door can pick up a hum in the metal. [PAWN_nameDef] sits by one for hours and passes on what it's saying, which is usually bad.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Poison_Shaman</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Poison_Shaman</identifier>
+        <slot>Adulthood</slot>
+        <title>poison shaman</title>
+        <titleShort>Poison shaman</titleShort>
+        <description>Spider, chaurus and a certain blue cave lichen all kill differently. [PAWN_nameDef] knows the order to mix them in, and has outlived several rivals because of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Ice_Breath_Caller</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Ice_Breath_Caller</identifier>
+        <slot>Adulthood</slot>
+        <title>ice-breath caller</title>
+        <titleShort>Ice-breath</titleShort>
+        <description>Breathing out slowly, [PAWN_nameDef] lets the frost run along the arm and off the fingers. No one else in the hive has learned how to do it without losing a hand.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Keeper_Of_Eggs</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Keeper_Of_Eggs</identifier>
+        <slot>Adulthood</slot>
+        <title>keeper of eggs</title>
+        <titleShort>Egg keeper</titleShort>
+        <description>Eggs that fail must be pulled out fast, before the rest take sick. [PAWN_nameDef] goes along the rows at each feeding, feeling for the cold ones.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>5</Animals>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Fungal_Seer</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Fungal_Seer</identifier>
+        <slot>Adulthood</slot>
+        <title>fungal seer</title>
+        <titleShort>Fungal seer</titleShort>
+        <description>A certain mushroom opens the throat and loosens the wits. [PAWN_nameDef] eats it on the proper nights and tells the elders where to raid.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>5</Plants>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Whisperer_Of_The_Vale</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Whisperer_Of_The_Vale</identifier>
+        <slot>Adulthood</slot>
+        <title>whisperer of the Vale</title>
+        <titleShort>Vale whisperer</titleShort>
+        <description>Stories in the hive say there's a place above where the snow is warm and the old ones still sing. [PAWN_nameDef] went looking for it, and came back alone and strange.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Plants>2</Plants>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Chaurus_Butcher</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Chaurus_Butcher</identifier>
+        <slot>Adulthood</slot>
+        <title>chaurus butcher</title>
+        <titleShort>Butcher</titleShort>
+        <description>Every part of a chaurus has a use if you can get to it before the venom sets. [PAWN_nameDef] splits them with a single stroke, by long practice and smell.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Resin_Boiler</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Resin_Boiler</identifier>
+        <slot>Adulthood</slot>
+        <title>resin boiler</title>
+        <titleShort>Resin boiler</titleShort>
+        <description>Tree sap traded or stolen from the surface goes in a pot with chitin. [PAWN_nameDef] sits in the fumes and turns out the glue that holds the hive's gear together.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Fungal_Farmer</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Fungal_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>fungal farmer</title>
+        <titleShort>Fungal farmer</titleShort>
+        <description>Rows of soft caps in the dark don't look like much, but they feed a hive through winter. [PAWN_nameDef] walks them each day with fingers trailing along the beds.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Tunnel_Widener</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Tunnel_Widener</identifier>
+        <slot>Adulthood</slot>
+        <title>tunnel widener</title>
+        <titleShort>Widener</titleShort>
+        <description>An old passage can always be made wider with enough bone picks. [PAWN_nameDef] has dug through more stone than most Dwemer, without any of the arithmetic.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>7</Mining>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Thrall_Driver</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Thrall_Driver</identifier>
+        <slot>Adulthood</slot>
+        <title>thrall driver</title>
+        <titleShort>Thrall driver</titleShort>
+        <description>Prisoners haul the stone, and someone has to make them keep at it. [PAWN_nameDef] walks behind them and can tell by their breathing who's about to fall.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Mining>4</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring, Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Skin_Curer</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Skin_Curer</identifier>
+        <slot>Adulthood</slot>
+        <title>skin curer</title>
+        <titleShort>Skin curer</titleShort>
+        <description>All sorts of hides come in, and some of them are people. [PAWN_nameDef] stretches each one on a frame and is not fussy about where it started out.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Scrap_Trader</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Scrap_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>scrap trader</title>
+        <titleShort>Scrap trader</titleShort>
+        <description>Hives will sometimes trade if they're starving, and someone must stand between the two sides. [PAWN_nameDef] is still alive after doing this several times.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Cave_Pool_Fisher</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Cave_Pool_Fisher</identifier>
+        <slot>Adulthood</slot>
+        <title>cave-pool fisher</title>
+        <titleShort>Pool fisher</titleShort>
+        <description>Pale fish in a deep pool can be taken with a hand, if one is very patient. [PAWN_nameDef] stands for hours in icy water up to the waist and hears them come.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Ice_Cutter</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Ice_Cutter</identifier>
+        <slot>Adulthood</slot>
+        <title>ice cutter</title>
+        <titleShort>Ice cutter</titleShort>
+        <description>Glacier ice stores meat for a long time and also seals a tunnel well. [PAWN_nameDef] cuts blocks from the upper shafts and drags them down on a hide sled.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Construction>3</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Bone_Sorter</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Bone_Sorter</identifier>
+        <slot>Adulthood</slot>
+        <title>bone sorter</title>
+        <titleShort>Bone sorter</titleShort>
+        <description>After a feast, all the bones go into separate heaps for needles, tools and arrows. [PAWN_nameDef] sorts them by feel and knows at once which belonged to whom.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Smoke_Keeper</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Smoke_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>smoke keeper</title>
+        <titleShort>Smoke keeper</titleShort>
+        <description>Meat keeps longer over a slow fire, and a slow fire has to be watched. [PAWN_nameDef] lives in the smoke-chamber and comes out coughing only to eat.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Hive_Wall_Mender</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Hive_Wall_Mender</identifier>
+        <slot>Adulthood</slot>
+        <title>hive-wall mender</title>
+        <titleShort>Wall mender</titleShort>
+        <description>Mud walls and woven web crack with the cold. [PAWN_nameDef] goes around every chamber after the thaw, feeling for the drafts and plugging them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Prisoner_Keeper</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Prisoner_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>prisoner keeper</title>
+        <titleShort>Prisoner keeper</titleShort>
+        <description>Cages have to be watched, and their contents kept alive for as long as they're wanted. [PAWN_nameDef] is good at this, in a manner that captives do not appreciate.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring, Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Bat_Guano_Digger</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Bat_Guano_Digger</identifier>
+        <slot>Adulthood</slot>
+        <title>bat-guano digger</title>
+        <titleShort>Guano digger</titleShort>
+        <description>Fungus beds need feeding, and the old caves are full of what they need. [PAWN_nameDef] digs it up by the basket, and the rest of the hive keeps a respectful distance.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>5</Plants>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Lantern_Bug_Herder</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Lantern_Bug_Herder</identifier>
+        <slot>Adulthood</slot>
+        <title>lantern-bug herder</title>
+        <titleShort>Bug herder</titleShort>
+        <description>Glowing bugs are of no use to the blind, except that captives work better if they can see. [PAWN_nameDef] keeps them in the pens and doesn't know what they're for.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Tool_Knapper</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Tool_Knapper</identifier>
+        <slot>Adulthood</slot>
+        <title>tool knapper</title>
+        <titleShort>Tool knapper</titleShort>
+        <description>Rock and chitin both flake along hidden lines. [PAWN_nameDef] can hear these lines with a light tap and doesn't waste a single good stone.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Snow_Melt_Carrier</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Snow_Melt_Carrier</identifier>
+        <slot>Adulthood</slot>
+        <title>snow-melt carrier</title>
+        <titleShort>Water carrier</titleShort>
+        <description>A hive drinks a great deal, and all of it has to be carried. [PAWN_nameDef] has walked one route for years and worn a groove in the passage's floor.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Plants>4</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Ration_Divider</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Ration_Divider</identifier>
+        <slot>Adulthood</slot>
+        <title>ration divider</title>
+        <titleShort>Ration divider</titleShort>
+        <description>Each share of food has to be measured out fairly or there's blood. [PAWN_nameDef] does it with a bone scoop, and has never once been caught cheating.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>5</Cooking>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Cloth_Stealer</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Cloth_Stealer</identifier>
+        <slot>Adulthood</slot>
+        <title>cloth stealer</title>
+        <titleShort>Cloth stealer</titleShort>
+        <description>Wool can't be grown underground, so someone's got to go get it. [PAWN_nameDef] returned from Nord farmhouses with blankets, shirts and the occasional live sheep.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Crafting>3</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Deep_Digger</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Deep_Digger</identifier>
+        <slot>Adulthood</slot>
+        <title>deep digger</title>
+        <titleShort>Deep digger</titleShort>
+        <description>Below the lowest hall, there's another one, and [PAWN_nameDef] is looking for it. Nobody ordered this. Elders have stopped asking and just send food down.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>8</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Falmer_Adult_Chaurus_Egg_Trader</defName>
+        <identifier>ESCP_Backstory_Falmer_Adult_Chaurus_Egg_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>chaurus egg trader</title>
+        <titleShort>Egg trader</titleShort>
+        <description>Fresh eggs buy peace between neighboring hives for about a season. [PAWN_nameDef] carries them across the dead ground in a padded sling, moving slowly and clicking often.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Falmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Intellectual, Artistic</workDisables>
+    </BackstoryDef>
+
+</Defs>

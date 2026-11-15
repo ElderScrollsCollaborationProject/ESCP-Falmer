@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_SnowElf_UniqueCharacterBase" ParentName="ESCP_SnowElfkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>300</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_SnowElf_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_SnowElf_Paladin</defName>
+        <label>Knight-Paladin of the Chantry</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>260</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_SnowElf_Military</li>
+                    <li>ESCP_Backstory_SnowElf_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_SnowElf_Chantry_Scholar>0</ESCP_Trait_SnowElf_Chantry_Scholar>
+            <ESCP_Trait_SnowElf_Paladin>0</ESCP_Trait_SnowElf_Paladin>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

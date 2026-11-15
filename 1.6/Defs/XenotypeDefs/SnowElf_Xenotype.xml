@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ESCP_BaseXenotype_MerStandardHead">
+        <defName>ESCP_Xenotype_SnowElf</defName>
+        <label>Snow Elf</label>
+        <iconPath>UI/Icons/Xenotypes/Genie</iconPath>
+        <description>The Falmer as they were: pale elves of Skyrim's first age, who raised cities of white stone at Winterhold and Saarthal long before Ysgramor's fleet came. They were priests and spellwrights, servants of Auri-El, and they took the cold as a kind of courtesy. War with the Nords broke their empire, and the Dwemer finished it.</description>
+        <descriptionShort>The Falmer before the fall: pale, sighted, proud and sworn to Auri-El.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_SnowElf_Light</li>
+            <li>ESCP_Gene_SnowElf_Winterborn</li>
+            <li>ESCP_Gene_SnowElf_Stonewright</li>
+            <li>Skin_SheerWhite</li>
+            <li>MinTemp_LargeDecrease</li>
+            <li>Hair_SnowWhite</li>
+            <li>Beard_NoBeardOnly</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

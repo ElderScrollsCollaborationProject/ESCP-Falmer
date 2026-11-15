@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_SnowElf_Chantry_Scholar</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Chantry scholar</label>
+                <description>Raised on the Chantry's long liturgies and the mathematics of the sun. Their reserves of magicka are deep and their memory for ritual is flawless.</description>
+                <statOffsets>
+                    <ESCP_MagickaMax>25</ESCP_MagickaMax>
+                    <GlobalLearningFactor>0.06</GlobalLearningFactor>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>2</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_SnowElf_Courtly</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>winter courtier</label>
+                <description>Comfortable at the Snow Prince's table, where a slight could wait a hundred years to be repaid. They rarely raise their voice.</description>
+                <statOffsets>
+                    <SocialImpact>0.1</SocialImpact>
+                    <NegotiationAbility>0.08</NegotiationAbility>
+                </statOffsets>
+                <skillGains>
+                    <Social>2</Social>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_SnowElf_Paladin</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Knight-Paladin</label>
+                <description>Sworn to the defense of Auri-El's chantries. They have been drilled in sword and ward since youth, and don't scare easily.</description>
+                <statOffsets>
+                    <MeleeHitChance>6</MeleeHitChance>
+                    <MeleeDodgeChance>4</MeleeDodgeChance>
+                    <PainShockThreshold>0.05</PainShockThreshold>
+                </statOffsets>
+                <skillGains>
+                    <Melee>2</Melee>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

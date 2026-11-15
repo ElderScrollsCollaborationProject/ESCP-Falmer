@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Falmer_UniqueCharacterBase" ParentName="ESCP_FalmerkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>300</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Falmer_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Falmer_Warmonger</defName>
+        <label>Falmer warmonger</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>220</combatPower>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>Neolithic</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Falmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Falmer_Military</li>
+                    <li>ESCP_Backstory_Falmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Falmer_Chaurus_Keeper>0</ESCP_Trait_Falmer_Chaurus_Keeper>
+            <ESCP_Trait_Falmer_Frost_Shaman>0</ESCP_Trait_Falmer_Frost_Shaman>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

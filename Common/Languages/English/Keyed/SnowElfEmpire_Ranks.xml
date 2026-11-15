@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_SnowElfEmpire>Teacher:</ESCP_Rank_Mentor_SnowElfEmpire>
+    <ESCP_Rank_Promote_SnowElfEmpire>Elevate in the Chantry</ESCP_Rank_Promote_SnowElfEmpire>
+    <ESCP_Rank_Promoted_Text_SnowElfEmpire>Auri-El's light shines on {0}, now {1} of the Chantry.</ESCP_Rank_Promoted_Text_SnowElfEmpire>
+    <ESCP_Rank_Rally_Title_SnowElfEmpire>{0} calls on Auri-El</ESCP_Rank_Rally_Title_SnowElfEmpire>
+    <ESCP_Rank_Rally_Text_SnowElfEmpire>{0} calls down Auri-El's light, and every one of {1} on the field fights as if the sun stood behind them.</ESCP_Rank_Rally_Text_SnowElfEmpire>
+    <ESCP_Rank_InspectionComplete_Commended_SnowElfEmpire>{0} inspects {1}'s arms and finds them bright as morning.</ESCP_Rank_InspectionComplete_Commended_SnowElfEmpire>
+    <ESCP_Rank_InspectionComplete_Reprimanded_SnowElfEmpire>{0} inspects {1}'s arms and finds them dull as a Falmer cave.</ESCP_Rank_InspectionComplete_Reprimanded_SnowElfEmpire>
+    <ESCP_Rank_PunishmentAssigned_SnowElfEmpire>{0} sends {1} to tend the wayshrines.</ESCP_Rank_PunishmentAssigned_SnowElfEmpire>
+
+</LanguageData>

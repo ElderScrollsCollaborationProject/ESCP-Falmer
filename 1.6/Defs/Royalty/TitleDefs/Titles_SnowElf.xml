@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_SnowElf_Pilgrim</defName>
+        <label>pilgrim of the Vale</label>
+        <description>Someone who has walked the wayshrines and been received at the Chantry's gate.</description>
+        <tags>
+            <li>ESCP_Title_SnowElf</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_SnowElf_Initiate</defName>
+        <label>initiate</label>
+        <description>An initiate of the priesthood, permitted to read the hymns aloud and expected to get them right.</description>
+        <tags>
+            <li>ESCP_Title_SnowElf</li>
+        </tags>
+        <seniority>200</seniority>
+        <favorCost>6</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_SnowElf_Curate</defName>
+        <label>curate</label>
+        <description>A keeper of one of the Chantry's lesser shrines, with the right to bless, to judge, and to be argued with.</description>
+        <tags>
+            <li>ESCP_Title_SnowElf</li>
+        </tags>
+        <seniority>500</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_SnowElf_Prince</defName>
+        <label>Snow Prince's kin</label>
+        <description>One of the old royal line, or close enough that no one living dares question it.</description>
+        <tags>
+            <li>ESCP_Title_SnowElf</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>16</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

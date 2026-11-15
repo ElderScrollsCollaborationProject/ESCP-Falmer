@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_SnowElfEmpire_Enlist_Letter_Title>In service to the Snow Elves</ESCP_SnowElfEmpire_Enlist_Letter_Title>
+    <ESCP_SnowElfEmpire_Enlist_Letter_Label>The colony now serves the Snow Elf Empire. The knight-paladins will feed and pay those who keep faith with Auri-El.</ESCP_SnowElfEmpire_Enlist_Letter_Label>
+    <ESCP_SnowElfEmpire_Enlist_Button_Label>Serve the Snow Elves</ESCP_SnowElfEmpire_Enlist_Button_Label>
+    <ESCP_SnowElfEmpire_Enlist_Button_Desc>Offer the colony's service to the Snow Elves and their knight-paladins.</ESCP_SnowElfEmpire_Enlist_Button_Desc>
+    <ESCP_SnowElfEmpire_Enlist_Requrements_Not_Satisfied>The Snow Elves are not sure of you. Standing: {0}.</ESCP_SnowElfEmpire_Enlist_Requrements_Not_Satisfied>
+    <ESCP_SnowElfEmpire_Enlisted_To_Hostile_Faction>The Snow Elves will not accept the service of their enemies.</ESCP_SnowElfEmpire_Enlisted_To_Hostile_Faction>
+    <ESCP_SnowElfEmpire_Enlisted_With_Key>Serves the Snow Elf Empire</ESCP_SnowElfEmpire_Enlisted_With_Key>
+    <ESCP_SnowElfEmpire_Missions_Label>Chantry tasks</ESCP_SnowElfEmpire_Missions_Label>
+    <ESCP_SnowElfEmpire_Missions_Desc>See what the chantry needs done.</ESCP_SnowElfEmpire_Missions_Desc>
+    <ESCP_SnowElfEmpire_Menu_Missions_Desc>Tasks from the Chantry of Auri-El. Paid when finished.</ESCP_SnowElfEmpire_Menu_Missions_Desc>
+    <ESCP_SnowElfEmpire_Menu_Missions_Select_Quest>Select a job</ESCP_SnowElfEmpire_Menu_Missions_Select_Quest>
+    <ESCP_SnowElfEmpire_Menu_Missions_Start_Quest>Accept</ESCP_SnowElfEmpire_Menu_Missions_Start_Quest>
+    <ESCP_SnowElfEmpire_Menu_Missions_Collect_Bounty>Collect</ESCP_SnowElfEmpire_Menu_Missions_Collect_Bounty>
+    <ESCP_SnowElfEmpire_Provisions_Label>Draw supplies</ESCP_SnowElfEmpire_Provisions_Label>
+    <ESCP_SnowElfEmpire_Provisions_Desc>Rations and herbs from the chantry.</ESCP_SnowElfEmpire_Provisions_Desc>
+    <ESCP_SnowElfEmpire_Storage_Label>Chantry storeroom</ESCP_SnowElfEmpire_Storage_Label>
+    <ESCP_SnowElfEmpire_Storage_Desc>Leave goods in a Snow Elf chantry.</ESCP_SnowElfEmpire_Storage_Desc>
+    <ESCP_SnowElfEmpire_Resign_Menu_Text>Leave the Snow Elves' service?</ESCP_SnowElfEmpire_Resign_Menu_Text>
+    <ESCP_SnowElfEmpire_Resign_Letter_Title>Left the Snow Elves</ESCP_SnowElfEmpire_Resign_Letter_Title>
+    <ESCP_SnowElfEmpire_Resign_Letter_Label>The colony has left the service of the Snow Elf Empire.</ESCP_SnowElfEmpire_Resign_Letter_Label>
+    <ESCP_SnowElfEmpire_Resign_Button_Label>Leave their service</ESCP_SnowElfEmpire_Resign_Button_Label>
+    <ESCP_SnowElfEmpire_Resign_Button_Desc>End your service to the Snow Elves.</ESCP_SnowElfEmpire_Resign_Button_Desc>
+    <ESCP_SnowElfEmpire_Kick_Out_Letter_Title>Dismissed by the Snow Elves</ESCP_SnowElfEmpire_Kick_Out_Letter_Title>
+    <ESCP_SnowElfEmpire_Kick_Out_Label_Title>The Snow Elves have turned the colony away.</ESCP_SnowElfEmpire_Kick_Out_Label_Title>
+    <ESCP_SnowElfEmpire_Salary_Label>Collect your stipend</ESCP_SnowElfEmpire_Salary_Label>
+    <ESCP_SnowElfEmpire_Salary_Desc>Coin from the chantry's offerings.</ESCP_SnowElfEmpire_Salary_Desc>
+    <ESCP_SnowElfEmpire_Work_0_Label>Guard the shrines</ESCP_SnowElfEmpire_Work_0_Label>
+    <ESCP_SnowElfEmpire_Work_0_Desc>Stand watch over the wayshrines of Auri-El.</ESCP_SnowElfEmpire_Work_0_Desc>
+    <ESCP_SnowElfEmpire_Work_1_Label>Train with the knight-paladins</ESCP_SnowElfEmpire_Work_1_Label>
+    <ESCP_SnowElfEmpire_Work_1_Desc>Learn the sword and the bow from the chantry's knights.</ESCP_SnowElfEmpire_Work_1_Desc>
+
+</LanguageData>

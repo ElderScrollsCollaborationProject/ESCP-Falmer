@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_Falmer</defName>
+        <label>Falmer</label>
+        <description>What remains of the Snow Elves after millennia of slavery and darkness. There is no writing now and very little speech. Hive life runs on sound, on the handling of chaurus and on a hatred of the surface that has outlasted any memory of its cause.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_Falmer_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_Falmer_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_Falmer</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_Falmer</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Falmer</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Falmer</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Falmer</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_Falmer</defName>
+        <label>Falmer</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_Falmer_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Falmer_Names_Male] [ESCP_Falmer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Falmer_Names_Male->Names/ESCP_Falmer_Names_Male</li>
+                <li>ESCP_Falmer_Names_Last->Names/ESCP_Falmer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_Falmer_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Falmer_Names_Female] [ESCP_Falmer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Falmer_Names_Female->Names/ESCP_Falmer_Names_Female</li>
+                <li>ESCP_Falmer_Names_Last->Names/ESCP_Falmer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Falmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Hive Mother</li>
+                <li>r_leaderTitle->Blind Shaman</li>
+                <li>r_leaderTitle->Warmonger</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Falmer</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Chaurus</li>
+                <li>hyphenPrefix->Deep</li>
+                <li>hyphenPrefix->Blind</li>
+                <li>hyphenPrefix->Gloom</li>
+                <li>r_ideoName->The Forgotten Light</li>
+                <li>r_ideoName->The Deep Hunger</li>
+                <li>r_ideoName->Hive Rites</li>
+                <li>r_ideoName->The Long Vengeance</li>
+                <li>r_ideoAdjective->Betrayed</li>
+                <li>r_ideoAdjective->Hive</li>
+                <li>r_memberName->Betrayed</li>
+                <li>r_memberName->Hive-kin</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Falmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Auri-El</li>
+                <li>r_deityName->The Deep</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Falmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->a dim name once sung by Snow Elves, now half remembered</li>
+                <li>r_deityType->the dark that gave them refuge and took the rest</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Falmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Long Silence</li>
+                <li>festivalName->The Hive Feast</li>
+                <li>festivalName->The Surface Hunt</li>
+                <li>festivalName->The Sounding Dark</li>
+                <li>festivalName->The Chaurus Offering</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

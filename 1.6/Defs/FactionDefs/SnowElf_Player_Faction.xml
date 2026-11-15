@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_SnowElf_Player</defName>
+        <label>Last Chantry</label>
+        <description>A few Snow Elves carrying hymnbooks, in search of a place the Nords and the Falmer have not yet found.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_SnowElf_Settler</basicMemberKind>
+        <pawnSingular>Snow Elf</pawnSingular>
+        <pawnsPlural>Snow Elves</pawnsPlural>
+        <leaderTitle>Arch-Curate</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.78, 0.85, 0.95)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_SnowElf>1</ESCP_Xenotype_SnowElf>
+            </xenotypeChances>
+        </xenotypeSet>
+        <allowedCultures>
+            <li>ESCP_Culture_SnowElf</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_SnowElf_Child</li>
+                    <li>ESCP_Backstory_SnowElf_Citizen</li>
+                    <li>ESCP_Backstory_SnowElf_Military</li>
+                    <li>ESCP_Backstory_SnowElf_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+    </FactionDef>
+
+</Defs>

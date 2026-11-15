@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Snow_Elf_Empire"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Chantry of Auri-El</li>
+                    <li>Forgotten Vale</li>
+                    <li>Inner Sanctum</li>
+                    <li>Moesring</li>
+                    <li>Winter's Rest</li>
+                    <li>Saarthal Reach</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>IceSheet</li>
+                    <li>Tundra</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

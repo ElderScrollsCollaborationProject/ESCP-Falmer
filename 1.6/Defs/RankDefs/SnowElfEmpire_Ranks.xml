@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_SnowElfEmpire</defName>
+        <label>the Chantry of Auri-El ranks</label>
+        <rootTier>ESCP_Rank_SnowElfEmpire_Acolyte</rootTier>
+        <owningFaction>ESCP_Faction_Snow_Elf_Empire</owningFaction>
+        <collectiveNoun>the Chantry of Auri-El</collectiveNoun>
+        <drillLabel>Sunlight Drill</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Recite the Hymns</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Inspect Their Glass</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Tend the Shrines...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>Auri-El's Light!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Gather in the Light</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Go in Auri-El's Grace</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_SnowElfEmpire_Acolyte</defName>
+        <label>acolyte</label>
+        <description>Has come to serve Auri-El and the Snow Elves.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_SnowElfEmpire_Initiate</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_SnowElfEmpire_Initiate</defName>
+        <label>initiate</label>
+        <description>Learns the rites of the Chantry and the use of the bow.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Melee>5</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Melee>400</Melee>
+            <Shooting>200</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_SnowElfEmpire_Knight</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_SnowElfEmpire_Knight</defName>
+        <label>knight</label>
+        <description>Sworn to defend the Snow Elves and their temples.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Melee>8</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Melee>500</Melee>
+            <Shooting>250</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_SnowElfEmpire_KnightPaladin</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_SnowElfEmpire_KnightPaladin</defName>
+        <label>Knight-Paladin</label>
+        <description>Guards the holiest places of Auri-El with sword and sunlight.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Melee>11</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Melee>600</Melee>
+            <Shooting>300</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_SnowElfEmpire_ArchCurate</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_SnowElfEmpire_ArchCurate</defName>
+        <label>Arch-Curate</label>
+        <description>Leads the Chantry of Auri-El.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Melee>14</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Melee>700</Melee>
+            <Shooting>350</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Combat</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

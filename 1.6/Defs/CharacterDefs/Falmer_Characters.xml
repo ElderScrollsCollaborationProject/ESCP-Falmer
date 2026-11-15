@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Ulvrith</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Falmer_Warmonger</pawnKind>
+        <faction>ESCP_Faction_Falmer_Hive</faction>
+        <xenotype>ESCP_Xenotype_Falmer</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Ulvrith</firstName>
+                <lastName>Coldmaw</lastName>
+                <nickname>the Listener</nickname>
+                <gender>Female</gender>
+                <age>104</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(220, 220, 220)</hairColor>
+                <hairDef>Bald</hairDef>
+                <headTypeDef>ESCP_HeadMerScaled_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>

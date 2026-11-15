@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>Rick.ESCP.Falmer</packageId>
+    <author>Rick</author>
+    <name>ESCP - Falmer</name>
+    <description>The Elder Scrolls Collaboration Project Presents: Falmer, an Elder Scrolls xenotype and faction mod featuring the blinded, vengeful remnants of the Snow Elves and the hives they keep beneath the ice.</description>
+    <url>https://github.com/ElderScrollsCollaborationProject</url>
+    <supportedVersions>
+        <li>1.6</li>
+        <li>1.7</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Rick.ESCP.Core.Tools</packageId>
+            <displayName>ESCP - Tools</displayName>
+            <downloadUrl>https://github.com/ElderScrollsCollaborationProject</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Rick.ESCP.Core.Tools</li>
+    </loadAfter>
+
+</ModMetaData>
