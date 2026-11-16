@@ -16,6 +16,11 @@
             <li>Hair_SnowWhite</li>
             <li>Beard_NoBeardOnly</li>
         </genes>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <leatherDef>ESCP_LeatherSnowElf</leatherDef>
+            </li>
+        </modExtensions>
     </XenotypeDef>
 
 </Defs>

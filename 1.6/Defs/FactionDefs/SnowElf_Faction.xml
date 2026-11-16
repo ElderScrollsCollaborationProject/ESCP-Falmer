@@ -159,6 +159,33 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Chantry of Auri-El</li>
+                    <li>Forgotten Vale</li>
+                    <li>Inner Sanctum</li>
+                    <li>Moesring</li>
+                    <li>Winter's Rest</li>
+                    <li>Saarthal Reach</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>IceSheet</li>
+                    <li>Tundra</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_SnowElfEmpire</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_SnowElfEmpire</li>
+                </rankTracks>
+            </li>
         </modExtensions>
     </FactionDef>
 

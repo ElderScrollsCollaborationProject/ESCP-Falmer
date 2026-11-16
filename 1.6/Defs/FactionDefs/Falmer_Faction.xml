@@ -107,6 +107,23 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Blackreach</li>
+                    <li>Alftand</li>
+                    <li>Irkngthand</li>
+                    <li>Forgotten Vale</li>
+                    <li>Sightless Pit</li>
+                    <li>Frostflow Deep</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>IceSheet</li>
+                    <li>Tundra</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 
